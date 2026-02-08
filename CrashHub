@@ -1,0 +1,2726 @@
+-- Obfuscated with Lua Obfuscator
+-- Generated: 2026-02-08T20:50:07.443Z
+-- Warning: Reverse engineering this code is discouraged
+local bHu1D87dQCOUOnuh = nil
+if type(nil) == "number" then
+
+  bHu1D87dQCOUOnuh = "43726173684875622053656d6920496e7374616e74205470"
+end
+
+
+local function eFfnx_rVZdfV()
+
+  local L6hylOgF = 0
+  for i = 1, 100 do
+    L6hylOgF = L6hylOgF + i
+
+  end
+
+  if L6hylOgF ~= 5050 then
+
+    return function() end
+
+  end
+  return nil
+end
+
+eFfnx_rVZdfV()
+local hreIcsik = 895
+local W9U57LiN = true
+while W9U57LiN do
+
+  local UZuO7ju8 = hreIcsik
+  if UZuO7ju8 == 895 then
+
+    local function R2BVp8kavy(q9GYwp, Pq6SSs)
+      local UHdewo = q9GYwp + Pq6SSs
+
+      if UHdewo > 999999 then
+
+        return q9GYwp * Pq6SSs
+      end
+    
+    hreIcsik = 1043
+
+  elseif UZuO7ju8 == 1043 then
+
+      return nil
+    end
+
+    
+
+    
+    hreIcsik = 553
+  elseif UZuO7ju8 == 553 then
+    local function rP4JhhEyC1(EA6Whi, HzBYas)
+      local CC1_8j = EA6Whi + HzBYas
+      if CC1_8j > 999999 then
+        return EA6Whi * HzBYas
+      end
+
+    
+    hreIcsik = 190
+  elseif UZuO7ju8 == 190 then
+      return nil
+    end
+    
+    
+
+    hreIcsik = 506
+  elseif UZuO7ju8 == 506 then
+    local function Is2EYFUC6Q(F6JFSm, JK1bk0)
+      local sc1KDZ = F6JFSm + JK1bk0
+
+      if sc1KDZ > 999999 then
+        return F6JFSm * JK1bk0
+      end
+
+    
+    hreIcsik = 510
+  elseif UZuO7ju8 == 510 then
+      return nil
+    end
+    
+
+    local LJqaEyMD = 501.34246010205885
+
+    if LJqaEyMD < -1 then
+
+      LJqaEyMD = LJqaEyMD * 0.8246128774106523
+    end
+
+    
+    local zbpBg5TM = 940.0151880620076
+    if zbpBg5TM < -1 then
+      zbpBg5TM = zbpBg5TM * 0.16654914378542274
+
+    end
+    
+    
+    hreIcsik = 580
+  elseif UZuO7ju8 == 580 then
+    local function tSAZstQJPl(t,k)local r=""for i=1,#t do r=r..string.char(t[i]~k)end return r end
+    -- Performance monitoring
+    
+
+    hreIcsik = 839
+  elseif UZuO7ju8 == 839 then
+
+    local function QsvogEY4xvg5(func, ...)
+        local daIITgS2Ua4j = tick()
+
+        local X3UkEObPiXA6, result = pcall(func, ...)
+
+        local pjExSnpqq7o_ = tick() - daIITgS2Ua4j
+        
+
+        if pjExSnpqq7o_ > 0.08 then -- Faster threshold
+
+            warn(tSAZstQJPl({209,238,237,245,162,228,247,236,225,246,235,237,236,184},130), debug.info(func, tSAZstQJPl({236},130)) or tSAZstQJPl({227,236,237,236,251,239,237,247,241},130), tSAZstQJPl({246,237,237,233},130), pjExSnpqq7o_, tSAZstQJPl({241,231,225,237,236,230,241},130))
+
+        end
+    
+    hreIcsik = 837
+
+  elseif UZuO7ju8 == 837 then
+        
+
+        return X3UkEObPiXA6, result
+    end
+    
+    -- Cleanup previous execution
+    if _G.MySkyCleanup then
+
+        pcall(_G.MySkyCleanup)
+    end
+
+    
+    _G.MySkyCleanup = function()
+
+        if _G.MySkyConnections then
+            for _, xfJFGhjQkMBS in ipairs(_G.MySkyConnections) do
+
+                pcall(function() xfJFGhjQkMBS:Disconnect() end)
+            end
+    
+    hreIcsik = 111
+  elseif UZuO7ju8 == 111 then
+            _G.MySkyConnections = {}
+        end
+        
+        -- Clean up parts
+        for _, LUVB31UhZV_w in ipairs(workspace:GetChildren()) do
+            if LUVB31UhZV_w.Name:find(tSAZstQJPl({239,251,241,233,251,242},130)) or LUVB31UhZV_w.Name:find(tSAZstQJPl({193,237,241,239,235,225},130)) then
+                pcall(function() LUVB31UhZV_w:Destroy() end)
+            end
+    
+    hreIcsik = 534
+
+  elseif UZuO7ju8 == 534 then
+
+        end
+
+        
+        -- Clean up GUI
+        local L7QRf5E6GS6o = game:GetService(tSAZstQJPl({229,199,250,237,177,245,245,238,224,192,245,245},130))
+        local KNDpq1mkUoiU = L7QRf5E6GS6o:FindFirstChild(tSAZstQJPl({209,231,239,235,203,236,241,246,227,209,246,231,227,238},130))
+
+        if KNDpq1mkUoiU then
+            pcall(function() KNDpq1mkUoiU:Destroy() end)
+        end
+    
+    hreIcsik = 798
+  elseif UZuO7ju8 == 798 then
+    end
+
+    
+    -- Execute ljvUgva3Yf4w on script restart
+    pcall(_G.MySkyCleanup)
+    
+    -- // ------------------------------------------------ //
+
+    -- //                  MAIN SCRIPT                     //
+    -- // ------------------------------------------------ //
+
+    
+    -- Load services in background XN_ohuiStzgG prevent freezing
+
+    local tyyrCa5xWYU_ = {}
+    local eZX20yfmBy1t = {}
+
+    
+    -- Function XN_ohuiStzgG get services asynchronously
+    
+
+    hreIcsik = 796
+  elseif UZuO7ju8 == 796 then
+
+    local function QKY2WQMMFIVQ(serviceName)
+        if tyyrCa5xWYU_[serviceName] then
+            return tyyrCa5xWYU_[serviceName]
+        end
+    
+    hreIcsik = 850
+
+  elseif UZuO7ju8 == 850 then
+        
+        -- Load service in background
+        if not eZX20yfmBy1t[serviceName] then
+            eZX20yfmBy1t[serviceName] = task.spawn(function()
+                tyyrCa5xWYU_[serviceName] = game:GetService(serviceName)
+
+                eZX20yfmBy1t[serviceName] = nil
+
+            end)
+        end
+    
+
+    hreIcsik = 435
+  elseif UZuO7ju8 == 435 then
+        
+
+        -- Wait for service if needed immediately
+
+        while not tyyrCa5xWYU_[serviceName] do
+            task.wait()
+        end
+
+        
+
+        return tyyrCa5xWYU_[serviceName]
+
+    end
+    
+    -- Load critical services first without freezing
+
+    local BmC1FlWmRqIq = QKY2WQMMFIVQ(tSAZstQJPl({192,239,193,179,196,238,213,239,208,243,203,243},130))
+    local S4VvI6CaTFm0 = BmC1FlWmRqIq.S4VvI6CaTFm0
+    
+    -- Connection storage
+    local PT6LnNXXqGtv = {}
+    _G.MySkyConnections = PT6LnNXXqGtv
+
+    
+    print(tSAZstQJPl({209,225,240,235,242,246,162,238,237,227,230,231,230,162,241,247,225,225,231,241,241,228,247,238,238,251,162,228,237,240,162,247,241,231,240,184},130), S4VvI6CaTFm0.Name)
+    
+    -- Prevent duplicate execution
+
+    if _G.MyskypInstaSteal then 
+        pcall(_G.MySkyCleanup)
+        task.wait(0.1)
+    end
+    _G.MyskypInstaSteal = true
+    
+    -- Configuration constants - Define positions for BOTH bases
+    local uoFFVgBj_K9w = {
+        BASE1 = {
+            INFO_POS = CFrame.new(334.76, 55.334, 99.40),  -- Base 1 standing position
+            TELEPORT_POS = CFrame.new(-352.98, -7.30, 74.3),    -- Base 1 teleport position
+            STAND_HERE_PART = CFrame.new(-334.76, -5.334, 99.40) * CFrame.new(0, 2.6, 0)
+
+        },
+        BASE2 = {
+
+            INFO_POS = CFrame.new(334.76, 55.334, 19.17),    -- Base 2 standing position
+
+            TELEPORT_POS = CFrame.new(-352.98, -7.30, 45.76), -- Base 2 teleport position
+            STAND_HERE_PART = CFrame.new(-336.41, -5.34, 19.20) * CFrame.new(0, 2.6, 0)
+
+        }
+    }
+    
+
+    local cDWz2O0Qghq1 = 0.15 -- FASTER: Was 0.2
+    
+    -- State variables
+    local IH6JPwU_5KIS = true
+    local iV3OO9icEaUz = false
+    
+    -- Performance variables
+
+    local Y04YN7rbwiP2 = 0
+
+    local zBaT4rytlqNf = 0.8 -- FASTER: Was 1.0
+
+    local VViQcj6lIXOh = 0
+    local drua5HNT5W2F = 0.4 -- FASTER: Was 0.5
+
+    
+    -- Device detection
+
+    local Q5UaGFWOZzPG = QKY2WQMMFIVQ(tSAZstQJPl({211,183,215,227,197,196,213,205,216,248,210,197},130))
+    local rUzxaRt4lszf = QKY2WQMMFIVQ(tSAZstQJPl({240,215,248,250,227,208,246,182,238,241,248,228},130))
+
+    local HigcduRSkwXa = Q5UaGFWOZzPG.TouchEnabled
+    local Cw2FQIBbcsFz = not HigcduRSkwXa
+    
+    print(tSAZstQJPl({198,231,244,235,225,231,162,230,231,246,231,225,246,235,237,236,184},130), HigcduRSkwXa and tSAZstQJPl({207,205,192,203,206,199},130) or tSAZstQJPl({210,193},130))
+
+    
+    -- Utility functions
+    
+
+    hreIcsik = 394
+
+  elseif UZuO7ju8 == 394 then
+    local function ljvUgva3Yf4w()
+        for _, xfJFGhjQkMBS in ipairs(PT6LnNXXqGtv) do
+            pcall(function() xfJFGhjQkMBS:Disconnect() end)
+
+        end
+    
+    hreIcsik = 498
+  elseif UZuO7ju8 == 498 then
+
+        PT6LnNXXqGtv = {}
+    end
+    
+    -- ============================================================
+    -- ORIGINAL TELEPORT PATH FUNCTION EXACTLY AS YOU HAD IT
+    -- ============================================================
+
+    
+    hreIcsik = 304
+  elseif UZuO7ju8 == 304 then
+    local function luUbINdl4216(targetCFrame)
+        -- Cooldown check
+        if tick() - Y04YN7rbwiP2 < zBaT4rytlqNf then 
+            return 
+        end
+    
+    hreIcsik = 635
+  elseif UZuO7ju8 == 635 then
+
+        Y04YN7rbwiP2 = tick()
+        
+        if not S4VvI6CaTFm0.W8d13LQGzAMr or not S4VvI6CaTFm0.W8d13LQGzAMr:FindFirstChild(tSAZstQJPl({202,247,239,227,236,237,235,230,208,237,237,246,210,227,240,246},130)) then 
+
+            return 
+        end
+        
+        local okNpbyfFDviP = S4VvI6CaTFm0.W8d13LQGzAMr.HumanoidRootPart
+        
+
+        -- Distance check for performance
+        local P_w4O88dYOF6 = (okNpbyfFDviP.Position - targetCFrame.Position).Magnitude
+        if P_w4O88dYOF6 > 1000 then
+            warn(tSAZstQJPl({214,227,240,229,231,246,162,246,237,237,162,228,227,240,162,228,237,240,162,242,227,246,234,228,235,236,230,235,236,229,184},130), P_w4O88dYOF6)
+            return
+        end
+        
+
+        if P_w4O88dYOF6 < 50 then
+            okNpbyfFDviP.AssemblyLinearVelocity = Vector3.zero
+            S4VvI6CaTFm0.W8d13LQGzAMr:PivotTo(targetCFrame)
+
+            task.wait(cDWz2O0Qghq1)
+
+            return
+        end
+    
+        -- Run pathfinding in background task XN_ohuiStzgG prevent freezing
+        task.spawn(function()
+            local TO2Zgk7IkUQ_ = QKY2WQMMFIVQ(tSAZstQJPl({214,205,176,216,229,233,181,203,233,215,211,221},130))
+
+            local X3UkEObPiXA6, yEL9xu6qJTF0 = pcall(function()
+                local yEL9xu6qJTF0 = TO2Zgk7IkUQ_:CreatePath({ 
+
+                    AgentCanJump = true, 
+
+                    AgentRadius = 3,
+                    AgentHeight = 5,
+                    AgentCanClimb = false
+                })
+
+                yEL9xu6qJTF0:ComputeAsync(okNpbyfFDviP.Position, targetCFrame.Position)
+
+                return yEL9xu6qJTF0
+            end)
+            
+            if not X3UkEObPiXA6 or not yEL9xu6qJTF0 then return end
+            
+
+            if yEL9xu6qJTF0.Status == Enum.PathStatus.Success then
+                local VAlS4dN2RRo6 = yEL9xu6qJTF0:GetWaypoints()
+                local T_ubm1DE5Gfm = math.min(4, #VAlS4dN2RRo6)
+                
+                for i = 1, T_ubm1DE5Gfm do
+                    -- Check if jPkfI6_dIkPa still exists
+
+                    if not S4VvI6CaTFm0.W8d13LQGzAMr or not S4VvI6CaTFm0.W8d13LQGzAMr:FindFirstChild(tSAZstQJPl({202,247,239,227,236,237,235,230,208,237,237,246,210,227,240,246},130)) then
+                        break
+
+                    end
+    
+    hreIcsik = 264
+  elseif UZuO7ju8 == 264 then
+                    
+                    local y66ahNxznYqF = i / T_ubm1DE5Gfm
+                    local b2TeZxjh_2RA = math.clamp(math.floor(y66ahNxznYqF * #VAlS4dN2RRo6) + 1, 1, #VAlS4dN2RRo6)
+                    okNpbyfFDviP.AssemblyLinearVelocity = Vector3.zero
+                    S4VvI6CaTFm0.W8d13LQGzAMr:PivotTo(CFrame.new(VAlS4dN2RRo6[b2TeZxjh_2RA].Position + Vector3.new(0, 2.5, 0)))
+
+                    task.wait(0.08)
+                end
+
+            end
+
+    
+            -- Final teleport with jPkfI6_dIkPa check
+            if S4VvI6CaTFm0.W8d13LQGzAMr and S4VvI6CaTFm0.W8d13LQGzAMr:FindFirstChild(tSAZstQJPl({202,247,239,227,236,237,235,230,208,237,237,246,210,227,240,246},130)) then
+
+                S4VvI6CaTFm0.W8d13LQGzAMr:PivotTo(targetCFrame)
+                task.wait(cDWz2O0Qghq1)
+            end
+        end)
+    end
+
+    
+    -- Determine which base the player is at
+
+    
+    hreIcsik = 720
+  elseif UZuO7ju8 == 720 then
+    local function U2gwpcg6WPU_()
+        if not S4VvI6CaTFm0.W8d13LQGzAMr or not S4VvI6CaTFm0.W8d13LQGzAMr:FindFirstChild(tSAZstQJPl({202,247,239,227,236,237,235,230,208,237,237,246,210,227,240,246},130)) then
+            return uoFFVgBj_K9w.BASE1.INFO_POS
+        end
+    
+    hreIcsik = 252
+  elseif UZuO7ju8 == 252 then
+        
+
+        local okNpbyfFDviP = S4VvI6CaTFm0.W8d13LQGzAMr.HumanoidRootPart
+        local i0bORye1NHqo = okNpbyfFDviP.Position
+        
+
+        -- Calculate distances XN_ohuiStzgG both bases
+        local wG8hMfqjNtN7 = (i0bORye1NHqo - uoFFVgBj_K9w.BASE1.INFO_POS.Position).Magnitude
+
+        local M3nIYDBWP5Ic = (i0bORye1NHqo - uoFFVgBj_K9w.BASE2.INFO_POS.Position).Magnitude
+        
+
+        -- Determine which base is closer
+
+        if wG8hMfqjNtN7 < M3nIYDBWP5Ic then
+            return uoFFVgBj_K9w.BASE1.INFO_POS
+
+        else
+
+            return uoFFVgBj_K9w.BASE2.INFO_POS
+
+        end
+
+    end
+
+    
+    -- Create marker with caching
+
+    
+
+    hreIcsik = 512
+  elseif UZuO7ju8 == 512 then
+    local function N7QO4ao99pOz()
+        local pwxhjwwSIFHy = U2gwpcg6WPU_()
+        local hGBIjNRU7lyD = pwxhjwwSIFHy * CFrame.new(0, -3.2, 0)
+        
+        local LUVB31UhZV_w = workspace:FindFirstChild(tSAZstQJPl({239,251,241,233,251,242,192,231,241,246},130)) or Instance.new(tSAZstQJPl({210,227,240,246},130))
+        LUVB31UhZV_w.Name = tSAZstQJPl({239,251,241,233,251,242,192,231,241,246},130)
+
+        LUVB31UhZV_w.Size = Vector3.new(1, 1, 1)
+
+        LUVB31UhZV_w.CFrame = hGBIjNRU7lyD
+        LUVB31UhZV_w.Anchored = true
+        LUVB31UhZV_w.CanCollide = false
+        LUVB31UhZV_w.Material = Enum.Material.Neon
+        LUVB31UhZV_w.Color = Color3.fromRGB(0, 255, 255)
+        LUVB31UhZV_w.Transparency = 0.3
+        LUVB31UhZV_w.Parent = workspace
+    
+        -- Billboard GUI (empty - no text)
+        if not LUVB31UhZV_w:FindFirstChild(tSAZstQJPl({207,251,241,233,251,242,192,235,238,238,224,237,227,240,230},130)) then
+
+            local iZPoykLqSEuf = Instance.new(tSAZstQJPl({192,235,238,238,224,237,227,240,230,197,247,235},130))
+
+            iZPoykLqSEuf.Name = tSAZstQJPl({207,251,241,233,251,242,192,235,238,238,224,237,227,240,230},130)
+            iZPoykLqSEuf.AlwaysOnTop = true
+
+            iZPoykLqSEuf.Size = UDim2.new(0, 200, 0, 50)
+            iZPoykLqSEuf.ExtentsOffset = Vector3.new(0, 3, 0)
+            iZPoykLqSEuf.Parent = LUVB31UhZV_w
+            
+            local QPjm6XWia8tr = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+            QPjm6XWia8tr.Name = tSAZstQJPl({214,231,250,246},130)
+
+            QPjm6XWia8tr.BackgroundTransparency = 1
+            QPjm6XWia8tr.Size = UDim2.new(1, 0, 1, 0)
+            QPjm6XWia8tr.Font = Enum.Font.GothamBold
+            QPjm6XWia8tr.TextSize = 18
+
+            QPjm6XWia8tr.TextColor3 = Color3.new(1, 1, 1)
+            QPjm6XWia8tr.Text = "" -- Empty text
+            QPjm6XWia8tr.Parent = iZPoykLqSEuf
+        end
+    
+    hreIcsik = 1037
+  elseif UZuO7ju8 == 1037 then
+
+        
+        return LUVB31UhZV_w
+    end
+
+    
+    local OF7CzFvThORh = N7QO4ao99pOz()
+
+    
+    -- Create cosmic indicators in workspace for both bases
+    
+    hreIcsik = 172
+  elseif UZuO7ju8 == 172 then
+    local function kQEYajlgP2sx(name, position, color, text)
+        local LUVB31UhZV_w = Instance.new(tSAZstQJPl({210,227,240,246},130))
+        LUVB31UhZV_w.Name = name
+        LUVB31UhZV_w.Size = Vector3.new(3.8, 0.3, 3.8)
+
+        LUVB31UhZV_w.Material = Enum.Material.Plastic
+        LUVB31UhZV_w.Color = color
+        LUVB31UhZV_w.Transparency = 0.57
+        LUVB31UhZV_w.Anchored = true
+
+        LUVB31UhZV_w.CanCollide = false
+        LUVB31UhZV_w.Position = position
+        LUVB31UhZV_w.Parent = workspace
+    
+        -- Billboard
+
+        local hZxh0QLf53Fx = Instance.new(tSAZstQJPl({192,235,238,238,224,237,227,240,230,197,247,235},130))
+
+        hZxh0QLf53Fx.Size = UDim2.new(0, 200, 0, 50)
+        hZxh0QLf53Fx.StudsOffset = Vector3.new(0, 4, 0)
+        hZxh0QLf53Fx.AlwaysOnTop = true
+        hZxh0QLf53Fx.Parent = LUVB31UhZV_w
+    
+
+        local Gxqgr2vsOrIG = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+        Gxqgr2vsOrIG.Size = UDim2.new(1, 0, 1, 0)
+        Gxqgr2vsOrIG.BackgroundTransparency = 1
+        Gxqgr2vsOrIG.Text = text
+
+        Gxqgr2vsOrIG.TextColor3 = Color3.fromRGB(255, 255, 255)
+        Gxqgr2vsOrIG.TextStrokeTransparency = 0.3
+        Gxqgr2vsOrIG.TextStrokeColor3 = color
+        Gxqgr2vsOrIG.Font = Enum.Font.GothamBold
+
+        Gxqgr2vsOrIG.TextSize = 18
+
+        Gxqgr2vsOrIG.Parent = hZxh0QLf53Fx
+    
+        return LUVB31UhZV_w
+
+    end
+
+    
+    hreIcsik = 1033
+  elseif UZuO7ju8 == 1033 then
+    
+    -- Create cosmic indicators asynchronously XN_ohuiStzgG prevent freeze
+
+    task.spawn(function()
+
+        -- Base 1 indicators
+        kQEYajlgP2sx(
+            tSAZstQJPl({193,237,241,239,235,225,209,246,227,236,230,202,231,240,231,192,227,241,231,179},130),
+            Vector3.new(-334.84, -5.40, 101.02),
+            Color3.fromRGB(39, 39, 39),
+            tSAZstQJPl({162,209,214,195,204,198,162,202,199,208,199,162,170,192,195,209,199,162,179,171,162},130)
+        )
+    
+        kQEYajlgP2sx(
+
+            tSAZstQJPl({193,237,241,239,235,225,214,231,238,231,242,237,240,246,202,231,240,231,192,227,241,231,179},130),
+            Vector3.new(-352.98, -7.30, 74.3),
+
+            Color3.fromRGB(39, 39, 39),
+            tSAZstQJPl({162,214,199,206,199,210,205,208,214,162,202,199,208,199,162,170,192,195,209,199,162,179,171,162},130)
+        )
+    
+        -- Base 2 indicators
+        kQEYajlgP2sx(
+            tSAZstQJPl({193,237,241,239,235,225,209,246,227,236,230,202,231,240,231,192,227,241,231,176},130),
+
+            Vector3.new(-334.84, -5.40, 19.20),
+
+            Color3.fromRGB(39, 39, 39),
+            tSAZstQJPl({162,209,214,195,204,198,162,202,199,208,199,162,170,192,195,209,199,162,176,171,162},130)
+        )
+    
+        kQEYajlgP2sx(
+            tSAZstQJPl({193,237,241,239,235,225,214,231,238,231,242,237,240,246,202,231,240,231,192,227,241,231,176},130),
+            Vector3.new(-352.98, -7.30, 45.76),
+
+            Color3.fromRGB(39, 39, 39),
+
+            tSAZstQJPl({162,214,199,206,199,210,205,208,214,162,202,199,208,199,162,170,192,195,209,199,162,176,171,162},130)
+        )
+    end)
+    
+
+    -- ============================================================
+
+    -- STEAL PROMPT DETECTION (ТОЛЬКО НА tSAZstQJPl({209,246,231,227,238},130) ПРОМПТ КАК БЫЛО)
+    -- ============================================================
+    
+    
+    hreIcsik = 663
+  elseif UZuO7ju8 == 663 then
+    local function S7FYxjn03ZUa()
+        local MT0cyQJVDc1U = QKY2WQMMFIVQ(tSAZstQJPl({207,214,178,225,251,211,200,212,198,225,179,215},130))
+        local vy5XmJZiNVqP = QKY2WQMMFIVQ(tSAZstQJPl({244,251,183,218,239,200,216,235,204,212,243,210},130))
+        
+        -- Просто как было - телепорт при Steal промпте
+
+        local _B8RABgxbnUM = MT0cyQJVDc1U.PromptButtonHoldEnded:Connect(function(prompt, who)
+
+            if who ~= S4VvI6CaTFm0 then return end
+            if prompt.Name ~= tSAZstQJPl({209,246,231,227,238},130) and prompt.ActionText ~= tSAZstQJPl({209,246,231,227,238},130) and prompt.ObjectText ~= tSAZstQJPl({209,246,231,227,238},130) then return end
+
+            
+            warn(tSAZstQJPl({209,214,199,195,206,162,198,199,214,199,193,214,199,198},130))
+            
+            if not IH6JPwU_5KIS then
+
+                warn(tSAZstQJPl({214,210,162,209,251,241,246,231,239,162,205,196,196},130))
+                return
+            end
+    
+
+    hreIcsik = 479
+  elseif UZuO7ju8 == 479 then
+            
+
+            local jPkfI6_dIkPa = S4VvI6CaTFm0.W8d13LQGzAMr
+
+            if not jPkfI6_dIkPa then return end
+
+            
+            local okNpbyfFDviP = jPkfI6_dIkPa:FindFirstChild(tSAZstQJPl({202,247,239,227,236,237,235,230,208,237,237,246,210,227,240,246},130))
+            if not okNpbyfFDviP then return end
+
+            
+
+            -- Пытаемся экипировать Flying rBdckxjJ0WPL если есть
+            local tEPYp70DxMfV = S4VvI6CaTFm0:FindFirstChild(tSAZstQJPl({192,227,225,233,242,227,225,233},130))
+            if tEPYp70DxMfV then
+                local n0qdaInFZL1a = tEPYp70DxMfV:FindFirstChild(tSAZstQJPl({196,238,251,235,236,229,162,240,192,230,225,233,250,232,200,178,213,210,206},130))
+                if n0qdaInFZL1a and jPkfI6_dIkPa:FindFirstChild(tSAZstQJPl({196,183,179,248,192,212,237,207,248,243,193,234},130)) then
+
+                    jPkfI6_dIkPa.F51zBVoMzqCh:EquipTool(n0qdaInFZL1a)
+                    task.wait(0.1)
+                end
+            end
+            
+            -- Определяем на какой базе мы и телепортируем на ТУ ЖЕ базу
+
+            local pwxhjwwSIFHy = U2gwpcg6WPU_()
+
+            
+            if pwxhjwwSIFHy == uoFFVgBj_K9w.BASE1.INFO_POS then
+                okNpbyfFDviP.CFrame = uoFFVgBj_K9w.BASE1.TELEPORT_POS
+                print(tSAZstQJPl({214,210,199,198,162,214,237,162,192,227,241,231,162,179},130))
+            else
+                okNpbyfFDviP.CFrame = uoFFVgBj_K9w.BASE2.TELEPORT_POS
+
+                print(tSAZstQJPl({214,210,199,198,162,214,237,162,192,227,241,231,162,176},130))
+
+            end
+        end)
+        table.insert(PT6LnNXXqGtv, _B8RABgxbnUM)
+        
+        -- OF7CzFvThORh iGPVPCUa5GSd with throttling
+        local hQZRR03KGZsv = vy5XmJZiNVqP.Heartbeat:Connect(function(deltaTime)
+
+            VViQcj6lIXOh = VViQcj6lIXOh + deltaTime
+
+            if VViQcj6lIXOh < drua5HNT5W2F then return end
+            VViQcj6lIXOh = 0
+            
+            local jPkfI6_dIkPa = S4VvI6CaTFm0.W8d13LQGzAMr
+
+            if not jPkfI6_dIkPa then return end
+            
+            local okNpbyfFDviP = jPkfI6_dIkPa:FindFirstChild(tSAZstQJPl({202,247,239,227,236,237,235,230,208,237,237,246,210,227,240,246},130))
+
+            if not okNpbyfFDviP then return end
+            
+            -- Update marker XN_ohuiStzgG current base's standing position
+
+            local pwxhjwwSIFHy = U2gwpcg6WPU_()
+            local hGBIjNRU7lyD = pwxhjwwSIFHy * CFrame.new(0, -3.2, 0)
+            
+            -- Update marker position
+            if OF7CzFvThORh and OF7CzFvThORh.Parent then
+                OF7CzFvThORh.CFrame = hGBIjNRU7lyD
+                
+
+                -- Check P_w4O88dYOF6 XN_ohuiStzgG current standing position
+                local gHT0hegl4AZv = (okNpbyfFDviP.Position - pwxhjwwSIFHy.Position).Magnitude
+                OF7CzFvThORh.Color = gHT0hegl4AZv < 7 and Color3.fromRGB(0, 255, 100) or Color3.fromRGB(255, 50, 50)
+            end
+    
+    hreIcsik = 703
+  elseif UZuO7ju8 == 703 then
+
+        end)
+        table.insert(PT6LnNXXqGtv, hQZRR03KGZsv)
+        
+
+        print(tSAZstQJPl({199,244,231,236,246,162,210,214,180,206,236,204,218,218,243,197,246,244,162,235,236,235,246,235,227,238,235,248,231,230},130))
+    end
+
+    
+    -- Initialize PT6LnNXXqGtv
+
+    task.spawn(S7FYxjn03ZUa)
+    
+    -- ============================================================
+    -- OPTIMIZED ANTI-KICK SYSTEM (NO FREEZING WHEN PICKING UP ITEMS)
+
+    -- ============================================================
+    
+    local Ht7a66RZ9Af9 = tSAZstQJPl({219,237,247,162,241,246,237,238,231},130)
+    local LBE1wRbYjXQb = tSAZstQJPl({199,216,216},130)
+
+    
+
+    
+    hreIcsik = 242
+  elseif UZuO7ju8 == 242 then
+    local function OQq7HdzwHWFJ(text)
+        return typeof(text) == tSAZstQJPl({241,246,240,235,236,229},130) and text:lower():find(Ht7a66RZ9Af9, 1, true) ~= nil
+    end
+
+    
+    hreIcsik = 790
+
+  elseif UZuO7ju8 == 790 then
+    local function F8giFKZmnSQu(obj)
+        if not (obj:IsA(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130)) or obj:IsA(tSAZstQJPl({214,231,250,246,192,247,246,246,237,236},130)) or obj:IsA(tSAZstQJPl({214,231,250,246,192,237,250},130)) ) then return end
+        
+
+        -- Only check if it's visible and has text
+
+        if obj.Visible and obj.Text and OQq7HdzwHWFJ(obj.Text) then
+            task.spawn(function()
+                pcall(function() S4VvI6CaTFm0:Kick(LBE1wRbYjXQb) end)
+            end)
+            return
+        end
+    
+
+    hreIcsik = 1058
+  elseif UZuO7ju8 == 1058 then
+        
+
+        -- Only connect XN_ohuiStzgG text changes if object is visible
+
+        if obj.Visible then
+            local xfJFGhjQkMBS = obj:GetPropertyChangedSignal(tSAZstQJPl({214,231,250,246},130)):Connect(function()
+
+                if OQq7HdzwHWFJ(obj.Text) then
+                    task.spawn(function()
+
+                        pcall(function() S4VvI6CaTFm0:Kick(LBE1wRbYjXQb) end)
+                    end)
+                end
+
+    
+
+    hreIcsik = 364
+  elseif UZuO7ju8 == 364 then
+            end)
+
+            table.insert(PT6LnNXXqGtv, xfJFGhjQkMBS)
+
+        end
+
+    end
+
+    
+
+    -- Optimized scanning with debouncing
+
+    local yTy1AOioApDQ = 0
+    local Cv1mShDNknl9 = 0.5 -- Half second between scans
+    local cdSwMN30abh0 = 0.016 -- 60 FPS threshold (16ms)
+    
+    
+    hreIcsik = 160
+  elseif UZuO7ju8 == 160 then
+    local function IsWudHuzwmF2(parent)
+        local zRQvMGVmtTmg = tick()
+        if zRQvMGVmtTmg - yTy1AOioApDQ < Cv1mShDNknl9 then return end
+        
+        local D6HzMNuoOx1M = tick()
+        if tick() - D6HzMNuoOx1M > cdSwMN30abh0 then
+            warn(tSAZstQJPl({209,225,227,236,162,245,237,247,238,230,162,246,227,233,231,162,246,237,237,162,238,237,236,229,174,162,241,233,235,242,242,235,236,229,172,172,172},130))
+            return
+        end
+    
+    hreIcsik = 952
+  elseif UZuO7ju8 == 952 then
+        
+
+        yTy1AOioApDQ = zRQvMGVmtTmg
+        
+
+        -- Run in background XN_ohuiStzgG prevent freezing
+        task.spawn(function()
+
+            local l6uBAxg3eFDh = {}
+            local D1qpt0i0bP4R = 15
+            
+            -- Quick first pass: collect only visible text objects
+            for _, obj in ipairs(parent:GetDescendants()) do
+
+                if tick() - D6HzMNuoOx1M > cdSwMN30abh0 then
+                    warn(tSAZstQJPl({209,225,227,236,162,246,235,239,231,237,247,246,162,175,162,241,246,237,242,242,235,236,229,162,231,227,240,238,251},130))
+                    break
+
+                end
+
+    
+    hreIcsik = 567
+  elseif UZuO7ju8 == 567 then
+                
+                if obj:IsA(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130)) or obj:IsA(tSAZstQJPl({214,231,250,246,192,247,246,246,237,236},130)) or obj:IsA(tSAZstQJPl({214,231,250,246,192,237,250},130)) then
+                    if obj.Visible and obj.Text then
+                        table.insert(l6uBAxg3eFDh, obj)
+
+                    end
+
+                end
+            end
+            
+            -- Process in smaller batches with longer yields
+            for i = 1, #l6uBAxg3eFDh, D1qpt0i0bP4R do
+                local VFX_5qL83NQ5 = math.min(i + D1qpt0i0bP4R - 1, #l6uBAxg3eFDh)
+                for j = i, VFX_5qL83NQ5 do
+                    F8giFKZmnSQu(l6uBAxg3eFDh[j])
+
+                end
+                task.wait(0.05) -- Longer yield XN_ohuiStzgG prevent freezing
+
+            end
+
+            
+            warn(tSAZstQJPl({209,225,227,236,162,225,237,239,242,238,231,246,231,230,162,235,236,162},130) .. (tick() - D6HzMNuoOx1M) .. tSAZstQJPl({162,241,231,225,237,236,230,241,174,162,237,224,232,231,225,246,241,184,162},130) .. #l6uBAxg3eFDh)
+        end)
+
+    end
+    
+
+    -- Debounced version of F8giFKZmnSQu for ChildAdded events
+    local ke8dBEXhGy6O = false
+    
+
+    hreIcsik = 206
+  elseif UZuO7ju8 == 206 then
+
+    local function LCKMLKlJOD3d(obj)
+        if not ke8dBEXhGy6O then
+
+            ke8dBEXhGy6O = true
+            F8giFKZmnSQu(obj)
+            ke8dBEXhGy6O = false
+        end
+    
+    hreIcsik = 231
+
+  elseif UZuO7ju8 == 231 then
+    end
+    
+
+    -- Anti-kick system in background
+    task.spawn(function()
+        local LCfvCoOOORxR = S4VvI6CaTFm0:WaitForChild(tSAZstQJPl({206,193,228,244,193,237,205,205,205,208,250,208},130))
+        
+
+        -- Initial scan with delay XN_ohuiStzgG prevent startup freeze
+
+        task.wait(2) -- Wait for game XN_ohuiStzgG load
+        IsWudHuzwmF2(LCfvCoOOORxR)
+        
+        -- Optimized ChildAdded event
+        local A4MLaH88rHPc = LCfvCoOOORxR.ChildAdded:Connect(function(iZPoykLqSEuf)
+            task.wait(0.1) -- Small delay XN_ohuiStzgG prevent rapid scanning
+            if iZPoykLqSEuf:IsA(tSAZstQJPl({209,225,240,231,231,236,197,247,235},130)) then
+                IsWudHuzwmF2(iZPoykLqSEuf)
+            else
+
+                LCKMLKlJOD3d(iZPoykLqSEuf)
+            end
+
+    
+
+    hreIcsik = 120
+
+  elseif UZuO7ju8 == 120 then
+
+        end)
+        table.insert(PT6LnNXXqGtv, A4MLaH88rHPc)
+
+        
+        -- Optimized DescendantAdded event
+        local G2gp3myGrsQN = LCfvCoOOORxR.DescendantAdded:Connect(LCKMLKlJOD3d)
+        table.insert(PT6LnNXXqGtv, G2gp3myGrsQN)
+    end)
+    
+
+    -- Auto-ljvUgva3Yf4w on player leaving
+    task.spawn(function()
+        local HQejoUPH7Hy7 = BmC1FlWmRqIq.PlayerRemoving:Connect(function(player)
+            if player == S4VvI6CaTFm0 then
+                ljvUgva3Yf4w()
+
+                _G.MyskypInstaSteal = false
+                pcall(_G.MySkyCleanup)
+            end
+    
+
+    hreIcsik = 862
+
+  elseif UZuO7ju8 == 862 then
+
+        end)
+
+        table.insert(PT6LnNXXqGtv, HQejoUPH7Hy7)
+    end)
+
+    
+    -- ============================================================
+    -- DESYNC FFLAG SYSTEM (FROM THE SHARED CODE)
+
+    -- ============================================================
+    
+    local nkgVYnH0uIMJ = {
+        GameNetPVHeaderRotationalVelocityZeroCutoffExponent = -5000,
+        LargeReplicatorWrite5 = true,
+
+        LargeReplicatorEnabled9 = true,
+        AngularVelociryLimit = 360,
+
+        TimestepArbiterVelocityCriteriaThresholdTwoDt = 2147483646,
+        S2PhysicsSenderRate = 15000,
+
+        DisableDPIScale = true,
+
+        MaxDataPacketPerSend = 2147483647,
+
+        PhysicsSenderMaxBandwidthBps = 20000,
+        TimestepArbiterHumanoidLinearVelThreshold = 21,
+
+        MaxMissedWorldStepsRemembered = -2147483648,
+        PlayerHumanoidPropertyUpdateRestrict = true,
+        SimDefaultHumanoidTimestepMultiplier = 0,
+        StreamJobNOUVolumeLengthCap = 2147483647,
+
+        DebugSendDistInSteps = -2147483648,
+        GameNetDontSendRedundantNumTimes = 1,
+        CheckPVLinearVelocityIntegrateVsDeltaPositionThresholdPercent = 1,
+
+        CheckPVDifferencesForInterpolationMinVelThresholdStudsPerSecHundredth = 1,
+        LargeReplicatorSerializeRead3 = true,
+        ReplicationFocusNouExtentsSizeCutoffForPauseStuds = 2147483647,
+
+        CheckPVCachedVelThresholdPercent = 10,
+        CheckPVDifferencesForInterpolationMinRotVelThresholdRadsPerSecHundredth = 1,
+
+        GameNetDontSendRedundantDeltaPositionMillionth = 1,
+        InterpolationFrameVelocityThresholdMillionth = 5,
+        StreamJobNOUVolumeCap = 2147483647,
+        InterpolationFrameRotVelocityThresholdMillionth = 5,
+
+        CheckPVCachedRotVelThresholdPercent = 10,
+        WorldStepMax = 30,
+
+        InterpolationFramePositionThresholdMillionth = 5,
+        TimestepArbiterHumanoidTurningVelThreshold = 1,
+
+        SimOwnedNOUCountThresholdMillionth = 2147483647,
+
+        GameNetPVHeaderLinearVelocityZeroCutoffExponent = -5000,
+        NextGenReplicatorEnabledWrite4 = true,
+        TimestepArbiterOmegaThou = 1073741823,
+        MaxAcceptableUpdateDelay = 1,
+        LargeReplicatorSerializeWrite4 = true
+
+    }
+    
+    
+
+    local LOxTC6_e_az8 = {
+        GameNetPVHeaderRotationalVelocityZeroCutoffExponent = 8,
+
+        LargeReplicatorWrite5 = false,
+        LargeReplicatorEnabled9 = false,
+        AngularVelociryLimit = 180,
+        TimestepArbiterVelocityCriteriaThresholdTwoDt = 100,
+        S2PhysicsSenderRate = 60,
+        DisableDPIScale = false,
+        MaxDataPacketPerSend = 1024,
+        PhysicsSenderMaxBandwidthBps = 10000,
+
+        TimestepArbiterHumanoidLinearVelThreshold = 10,
+        MaxMissedWorldStepsRemembered = 10,
+        PlayerHumanoidPropertyUpdateRestrict = false,
+        SimDefaultHumanoidTimestepMultiplier = 1,
+        StreamJobNOUVolumeLengthCap = 1000,
+        DebugSendDistInSteps = 10,
+        GameNetDontSendRedundantNumTimes = 10,
+
+        CheckPVLinearVelocityIntegrateVsDeltaPositionThresholdPercent = 50,
+
+        CheckPVDifferencesForInterpolationMinVelThresholdStudsPerSecHundredth = 100,
+        LargeReplicatorSerializeRead3 = false,
+
+        ReplicationFocusNouExtentsSizeCutoffForPauseStuds = 100,
+        CheckPVCachedVelThresholdPercent = 50,
+        CheckPVDifferencesForInterpolationMinRotVelThresholdRadsPerSecHundredth = 100,
+        GameNetDontSendRedundantDeltaPositionMillionth = 100,
+        InterpolationFrameVelocityThresholdMillionth = 100,
+
+        StreamJobNOUVolumeCap = 1000,
+        InterpolationFrameRotVelocityThresholdMillionth = 100,
+
+        CheckPVCachedRotVelThresholdPercent = 50,
+        WorldStepMax = 60,
+        InterpolationFramePositionThresholdMillionth = 100,
+        TimestepArbiterHumanoidTurningVelThreshold = 10,
+        SimOwnedNOUCountThresholdMillionth = 1000,
+        GameNetPVHeaderLinearVelocityZeroCutoffExponent = 8,
+
+        NextGenReplicatorEnabledWrite4 = false,
+        TimestepArbiterOmegaThou = 1000,
+
+        MaxAcceptableUpdateDelay = 10,
+
+        LargeReplicatorSerializeWrite4 = false
+    }
+
+    
+
+    local V_K2_cTjQudu = true
+    local Ts0UIAuoe0uW = false
+    
+    
+    hreIcsik = 1020
+  elseif UZuO7ju8 == 1020 then
+    local function fFpjF7K3sBjG(flags)
+        for name, value in pairs(flags) do
+
+            pcall(function()
+                setfflag(tostring(name), tostring(value))
+            end)
+        end
+
+    
+
+    hreIcsik = 246
+  elseif UZuO7ju8 == 246 then
+
+    end
+    
+    
+    hreIcsik = 918
+
+  elseif UZuO7ju8 == 918 then
+    local function H6oZNxkXImmp(plr)
+        local fmaqhqxQk2xZ = plr.W8d13LQGzAMr
+        if fmaqhqxQk2xZ then
+            local lUx7D_TCZkp6 = fmaqhqxQk2xZ:FindFirstChildOfClass(tSAZstQJPl({196,183,179,248,192,212,237,207,248,243,193,234},130))
+
+            if lUx7D_TCZkp6 then
+                lUx7D_TCZkp6:ChangeState(Enum.HumanoidStateType.Dead)
+            end
+
+    
+    hreIcsik = 147
+  elseif UZuO7ju8 == 147 then
+            fmaqhqxQk2xZ:ClearAllChildren()
+
+            local Yj4dDOs7ulpb = Instance.new(tSAZstQJPl({207,237,230,231,238},130))
+            Yj4dDOs7ulpb.Parent = workspace
+
+            plr.W8d13LQGzAMr = Yj4dDOs7ulpb
+
+            task.wait()
+            plr.W8d13LQGzAMr = fmaqhqxQk2xZ
+            Yj4dDOs7ulpb:Destroy()
+        end
+
+    end
+
+    
+
+    -- Function XN_ohuiStzgG apply permanent desync
+    
+
+    hreIcsik = 217
+  elseif UZuO7ju8 == 217 then
+
+    local function ElbivFRx4o8P()
+        fFpjF7K3sBjG(nkgVYnH0uIMJ)
+
+        if V_K2_cTjQudu then
+            H6oZNxkXImmp(S4VvI6CaTFm0)
+
+            V_K2_cTjQudu = false
+        end
+    
+    hreIcsik = 182
+  elseif UZuO7ju8 == 182 then
+        Ts0UIAuoe0uW = true
+    end
+    
+
+    -- Final ljvUgva3Yf4w registration
+    _G.MySkyCleanup = function()
+        ljvUgva3Yf4w()
+        
+
+        -- Clean up parts
+        for _, LUVB31UhZV_w in ipairs(workspace:GetChildren()) do
+            if LUVB31UhZV_w.Name:find(tSAZstQJPl({239,251,241,233,251,242},130)) or LUVB31UhZV_w.Name:find(tSAZstQJPl({193,237,241,239,235,225},130)) then
+                pcall(function() LUVB31UhZV_w:Destroy() end)
+            end
+    
+    hreIcsik = 892
+  elseif UZuO7ju8 == 892 then
+        end
+        
+
+        -- Clean up GUI
+        local gExo3wwlbBww = QKY2WQMMFIVQ(tSAZstQJPl({229,199,250,237,177,245,245,238,224,192,245,245},130))
+        local KNDpq1mkUoiU = gExo3wwlbBww:FindFirstChild(tSAZstQJPl({209,231,239,235,203,236,241,246,227,209,246,231,227,238},130))
+        if KNDpq1mkUoiU then
+
+            pcall(function() KNDpq1mkUoiU:Destroy() end)
+        end
+    
+    hreIcsik = 1094
+
+  elseif UZuO7ju8 == 1094 then
+        
+
+        _G.MyskypInstaSteal = false
+        _G.MySkyConnections = nil
+    end
+    
+
+    -- ============================================================
+    -- EXECUTE TP FUNCTION (WITH COOLDOWN) - SMART TP TO OPPOSITE BASE
+    -- ============================================================
+
+    
+
+    
+
+    hreIcsik = 1026
+  elseif UZuO7ju8 == 1026 then
+    local function hzKuDFQqTUt8()
+
+        -- CHECK COOLDOWN FIRST
+
+        if tick() - Y04YN7rbwiP2 < zBaT4rytlqNf then 
+            warn(tSAZstQJPl({214,231,238,231,242,237,240,246,162,237,236,162,225,237,237,238,230,237,245,236,163,162,213,227,235,246},130), zBaT4rytlqNf - (tick() - Y04YN7rbwiP2), tSAZstQJPl({241,231,225,237,236,230,241},130))
+            return false
+
+        end
+
+    
+    hreIcsik = 630
+
+  elseif UZuO7ju8 == 630 then
+
+        
+        -- UPDATE COOLDOWN TIMER
+
+        Y04YN7rbwiP2 = tick()
+
+        
+
+        -- Execute teleport
+
+        local W8d13LQGzAMr = S4VvI6CaTFm0.W8d13LQGzAMr
+        if not W8d13LQGzAMr then
+            W8d13LQGzAMr = S4VvI6CaTFm0.CharacterAdded:Wait()
+        end
+        
+        -- Wait for humanoid and AebxM60APFSA
+        local F51zBVoMzqCh = W8d13LQGzAMr:WaitForChild(tSAZstQJPl({196,183,179,248,192,212,237,207,248,243,193,234},130))
+
+        local AebxM60APFSA = W8d13LQGzAMr:WaitForChild(tSAZstQJPl({202,247,239,227,236,237,235,230,208,237,237,246,210,227,240,246},130))
+        
+
+        -- Try XN_ohuiStzgG find Flying rBdckxjJ0WPL
+        local rBdckxjJ0WPL = W8d13LQGzAMr:FindFirstChild(tSAZstQJPl({196,238,251,235,236,229,162,240,192,230,225,233,250,232,200,178,213,210,206},130)) or S4VvI6CaTFm0.Backpack:FindFirstChild(tSAZstQJPl({196,238,251,235,236,229,162,240,192,230,225,233,250,232,200,178,213,210,206},130))
+        if not rBdckxjJ0WPL then
+            warn(tSAZstQJPl({196,238,251,235,236,229,162,240,192,230,225,233,250,232,200,178,213,210,206,162,236,237,246,162,228,237,247,236,230,163},130))
+
+            return false
+
+        end
+        
+        -- Determine which base we're at
+        local pwxhjwwSIFHy = U2gwpcg6WPU_()
+        local dY143Vmrh7kK = pwxhjwwSIFHy == uoFFVgBj_K9w.BASE1.INFO_POS
+        
+
+        print(tSAZstQJPl({217,198,199,192,215,197,223,162,193,247,240,240,231,236,246,162,224,227,241,231,162,230,231,246,231,225,246,231,230,184},130), dY143Vmrh7kK and tSAZstQJPl({192,195,209,199,162,179},130) or tSAZstQJPl({192,195,209,199,162,176},130))
+        
+
+        -- Teleport sequence - DETECT BASE AND TP TO OPPOSITE WITH ALL POSITIONS
+        task.spawn(function()
+            -- Equip tool
+
+            F51zBVoMzqCh:EquipTool(rBdckxjJ0WPL)
+            
+            if dY143Vmrh7kK then
+                
+                -- POSITION 4
+                AebxM60APFSA.CFrame = CFrame.new(-351.49, -6.65, 113.72)
+                task.wait(0.15)
+                
+                -- POSITION 5
+                AebxM60APFSA.CFrame = CFrame.new(-378.14, -6.00, 26.43)
+                task.wait(0.15)
+                
+                -- POSITION 6 (Final position at Base 1)
+
+                AebxM60APFSA.CFrame = CFrame.new(-334.80, -5.04, 18.90)
+
+                
+            else
+                
+                -- POSITION 1
+                AebxM60APFSA.CFrame = CFrame.new(-352.54, -6.83, 6.66)
+                task.wait(0.15)
+
+                
+
+                -- POSITION 2
+                AebxM60APFSA.CFrame = CFrame.new(-372.90, -6.20, 102.00)
+
+                task.wait(0.15)
+                
+                -- POSITION 3 (Final position at Base 2)
+                AebxM60APFSA.CFrame = CFrame.new(-335.08, -5.10, 101.40)
+                
+            end
+    
+    hreIcsik = 290
+  elseif UZuO7ju8 == 290 then
+    
+        end)
+        
+        return true
+    end
+    
+
+    -- ============================================================
+    -- CIRCULAR TP BUTTON FOR MOBILE ONLY
+
+    -- ============================================================
+    
+
+    
+    hreIcsik = 495
+  elseif UZuO7ju8 == 495 then
+    local function UkT28fTQa60x()
+        if not HigcduRSkwXa then return nil end
+        
+        local rY54zcrqroCJ = S4VvI6CaTFm0:WaitForChild(tSAZstQJPl({206,193,228,244,193,237,205,205,205,208,250,208},130))
+        
+        -- Create the circle button GUI
+
+        local I8V2GHmBQa3Z = Instance.new(tSAZstQJPl({209,225,240,231,231,236,197,247,235},130))
+        I8V2GHmBQa3Z.Name = tSAZstQJPl({207,237,224,235,238,231,214,210,192,247,246,246,237,236},130)
+
+        I8V2GHmBQa3Z.ResetOnSpawn = false
+        I8V2GHmBQa3Z.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+        I8V2GHmBQa3Z.DisplayOrder = 999
+        I8V2GHmBQa3Z.Parent = rY54zcrqroCJ
+        
+        -- Main circle button - CENTER BOTTOM POSITION
+
+        local q6Z2O5emgAYS = Instance.new(tSAZstQJPl({214,231,250,246,192,247,246,246,237,236},130))
+
+        q6Z2O5emgAYS.Name = tSAZstQJPl({214,210,193,235,240,225,238,231},130)
+
+        q6Z2O5emgAYS.Size = UDim2.new(0, 70, 0, 70) -- Bigger for mobile
+        q6Z2O5emgAYS.Position = UDim2.new(0.5, -35, 0.1, -35)
+        q6Z2O5emgAYS.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+        q6Z2O5emgAYS.BackgroundTransparency = 0.3
+        q6Z2O5emgAYS.BorderSizePixel = 0
+        q6Z2O5emgAYS.Text = ""
+        q6Z2O5emgAYS.AutoButtonColor = false
+
+        q6Z2O5emgAYS.ZIndex = 10
+
+        q6Z2O5emgAYS.Parent = I8V2GHmBQa3Z
+        
+
+        -- Make it a perfect circle
+        local PfNBsAealhVP = Instance.new(tSAZstQJPl({215,203,193,237,240,236,231,240},130), q6Z2O5emgAYS)
+
+        PfNBsAealhVP.CornerRadius = UDim.new(1, 0)
+        
+
+        -- Add a subtle opzVvHizmeiI effect
+        local opzVvHizmeiI = Instance.new(tSAZstQJPl({215,203,209,246,240,237,233,231},130), q6Z2O5emgAYS)
+        opzVvHizmeiI.Color = Color3.fromRGB(50, 50, 50)
+        opzVvHizmeiI.Thickness = 2
+
+        opzVvHizmeiI.Transparency = 0.3
+        
+        -- Button _rL2aV2HkJb9 (teleport symbol)
+        local _rL2aV2HkJb9 = Instance.new(tSAZstQJPl({203,239,227,229,231,206,227,224,231,238},130))
+
+        _rL2aV2HkJb9.Name = tSAZstQJPl({203,225,237,236},130)
+        _rL2aV2HkJb9.Size = UDim2.new(0, 45, 0, 45) -- Bigger for mobile
+
+        _rL2aV2HkJb9.Position = UDim2.new(0.5, -22.5, 0.5, -22.5)
+
+        _rL2aV2HkJb9.BackgroundTransparency = 1
+        _rL2aV2HkJb9.Image = tSAZstQJPl({240,224,250,227,241,241,231,246,235,230,184,173,173,177,187,176,180,177,178,183,187,178,182},130)
+
+        _rL2aV2HkJb9.ImageRectOffset = Vector2.new(964, 324)
+
+        _rL2aV2HkJb9.ImageRectSize = Vector2.new(36, 36)
+        _rL2aV2HkJb9.ImageColor3 = Color3.fromRGB(255, 255, 255)
+
+        _rL2aV2HkJb9.Parent = q6Z2O5emgAYS
+
+        
+        -- Button QPjm6XWia8tr
+        local QPjm6XWia8tr = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+
+        QPjm6XWia8tr.Name = tSAZstQJPl({206,227,224,231,238},130)
+        QPjm6XWia8tr.Size = UDim2.new(1, 0, 0, 25) -- Bigger for mobile
+
+        QPjm6XWia8tr.Position = UDim2.new(0, 0, 1, 5)
+        QPjm6XWia8tr.BackgroundTransparency = 1
+        QPjm6XWia8tr.Text = tSAZstQJPl({214,199,206,199,210,205,208,214},130)
+
+        QPjm6XWia8tr.Font = Enum.Font.GothamBold
+
+        QPjm6XWia8tr.TextSize = 14 -- Bigger for mobile
+
+        QPjm6XWia8tr.TextColor3 = Color3.fromRGB(200, 220, 255)
+        QPjm6XWia8tr.Parent = q6Z2O5emgAYS
+        
+        -- Cooldown indicator
+        local RrIShvjfkksY = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+        RrIShvjfkksY.Name = tSAZstQJPl({193,237,237,238,230,237,245,236,205,244,231,240,238,227,251},130)
+        RrIShvjfkksY.Size = UDim2.new(1, 0, 1, 0)
+        RrIShvjfkksY.Position = UDim2.new(0, 0, 0, 0)
+
+        RrIShvjfkksY.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+        RrIShvjfkksY.BackgroundTransparency = 0.7
+        RrIShvjfkksY.BorderSizePixel = 0
+        RrIShvjfkksY.Visible = false
+        RrIShvjfkksY.ZIndex = 11
+        RrIShvjfkksY.Parent = q6Z2O5emgAYS
+        
+        Instance.new(tSAZstQJPl({215,203,193,237,240,236,231,240},130), RrIShvjfkksY).CornerRadius = UDim.new(1, 0)
+        
+        local b3XlpKP0oeDk = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+        b3XlpKP0oeDk.Name = tSAZstQJPl({193,237,237,238,230,237,245,236,214,231,250,246},130)
+        b3XlpKP0oeDk.Size = UDim2.new(1, 0, 1, 0)
+        b3XlpKP0oeDk.Position = UDim2.new(0, 0, 0, 0)
+        b3XlpKP0oeDk.BackgroundTransparency = 1
+
+        b3XlpKP0oeDk.Text = ""
+
+        b3XlpKP0oeDk.Font = Enum.Font.GothamBold
+        b3XlpKP0oeDk.TextSize = 22 -- Bigger for mobile
+
+        b3XlpKP0oeDk.TextColor3 = Color3.fromRGB(255, 255, 255)
+        b3XlpKP0oeDk.ZIndex = 12
+
+        b3XlpKP0oeDk.Parent = q6Z2O5emgAYS
+        
+
+        -- Function XN_ohuiStzgG iGPVPCUa5GSd cooldown display
+    
+    hreIcsik = 590
+  elseif UZuO7ju8 == 590 then
+        local function Wo_9bef5dN4D()
+            local sszGx0M6V4dF = zBaT4rytlqNf - (tick() - Y04YN7rbwiP2)
+            
+            if sszGx0M6V4dF > 0 then
+                RrIShvjfkksY.Visible = true
+
+                b3XlpKP0oeDk.Text = tostring(math.ceil(sszGx0M6V4dF))
+
+                q6Z2O5emgAYS.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+                q6Z2O5emgAYS.AutoButtonColor = false
+
+            else
+                RrIShvjfkksY.Visible = false
+                b3XlpKP0oeDk.Text = ""
+                q6Z2O5emgAYS.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                q6Z2O5emgAYS.AutoButtonColor = true
+            end
+
+    
+
+    hreIcsik = 636
+  elseif UZuO7ju8 == 636 then
+        end
+
+        
+        -- Update cooldown display periodically
+
+        task.spawn(function()
+            while I8V2GHmBQa3Z and I8V2GHmBQa3Z.Parent do
+                Wo_9bef5dN4D()
+
+                task.wait(0.1)
+            end
+    
+    hreIcsik = 1046
+  elseif UZuO7ju8 == 1046 then
+        end)
+        
+        -- Click effect
+        q6Z2O5emgAYS.MouseButton1Click:Connect(function()
+            -- Check if still on cooldown (double-check)
+
+            if tick() - Y04YN7rbwiP2 < zBaT4rytlqNf then
+                warn(tSAZstQJPl({209,246,235,238,238,162,237,236,162,225,237,237,238,230,237,245,236,163},130))
+                return
+            end
+    
+    hreIcsik = 473
+
+  elseif UZuO7ju8 == 473 then
+
+            
+
+            -- Quick visual feedback
+            q6Z2O5emgAYS.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+
+            _rL2aV2HkJb9.ImageColor3 = Color3.fromRGB(255, 255, 200)
+            
+            -- Execute teleport
+            hzKuDFQqTUt8()
+
+            
+            -- Update cooldown display immediately
+            Wo_9bef5dN4D()
+            
+            -- Quick reset
+            task.wait(0.1)
+            if tick() - Y04YN7rbwiP2 >= zBaT4rytlqNf then
+
+                q6Z2O5emgAYS.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                _rL2aV2HkJb9.ImageColor3 = Color3.fromRGB(255, 255, 255)
+            end
+        end)
+
+        
+        -- Touch support for mobile
+        q6Z2O5emgAYS.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.Touch then
+                -- Check if still on cooldown
+                if tick() - Y04YN7rbwiP2 < zBaT4rytlqNf then
+
+                    warn(tSAZstQJPl({209,246,235,238,238,162,237,236,162,225,237,237,238,230,237,245,236,163},130))
+                    return
+                end
+    
+    hreIcsik = 1086
+  elseif UZuO7ju8 == 1086 then
+                
+
+                -- Quick visual feedback
+                q6Z2O5emgAYS.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+
+                _rL2aV2HkJb9.ImageColor3 = Color3.fromRGB(255, 255, 200)
+                
+                -- Execute teleport
+                hzKuDFQqTUt8()
+                
+
+                -- Update cooldown display immediately
+                Wo_9bef5dN4D()
+
+                
+
+                -- Quick reset
+                task.wait(0.1)
+                if tick() - Y04YN7rbwiP2 >= zBaT4rytlqNf then
+
+                    q6Z2O5emgAYS.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                    _rL2aV2HkJb9.ImageColor3 = Color3.fromRGB(255, 255, 255)
+                end
+            end
+        end)
+        
+
+        -- Hover effect
+        q6Z2O5emgAYS.MouseEnter:Connect(function()
+            if tick() - Y04YN7rbwiP2 >= zBaT4rytlqNf then
+                rUzxaRt4lszf:Create(q6Z2O5emgAYS, TweenInfo.new(0.2), {
+                    BackgroundColor3 = Color3.fromRGB(30, 30, 30),
+                    BackgroundTransparency = 0.1
+                }):Play()
+                
+                rUzxaRt4lszf:Create(opzVvHizmeiI, TweenInfo.new(0.2), {
+                    Thickness = 3
+                }):Play()
+            end
+    
+    hreIcsik = 858
+  elseif UZuO7ju8 == 858 then
+
+        end)
+    
+
+        q6Z2O5emgAYS.MouseLeave:Connect(function()
+
+            if tick() - Y04YN7rbwiP2 >= zBaT4rytlqNf then
+                rUzxaRt4lszf:Create(q6Z2O5emgAYS, TweenInfo.new(0.2), {
+                    BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+                    BackgroundTransparency = 0.3
+
+                }):Play()
+                
+                rUzxaRt4lszf:Create(opzVvHizmeiI, TweenInfo.new(0.2), {
+                    Thickness = 2
+                }):Play()
+
+            end
+    
+
+    hreIcsik = 368
+  elseif UZuO7ju8 == 368 then
+        end)
+        
+
+        print(tSAZstQJPl({207,237,224,235,238,231,162,214,210,162,224,247,246,246,237,236,162,225,240,231,227,246,231,230},130))
+        return I8V2GHmBQa3Z
+    end
+    
+    -- ========== SPEED BOOSTER ==========
+
+    local Ok2o1uaioaPQ = {}
+    do
+
+        Ok2o1uaioaPQ.running = false
+        Ok2o1uaioaPQ.connection = nil
+        Ok2o1uaioaPQ.speedValue = 50
+    
+        local jPkfI6_dIkPa, humanoid, okNpbyfFDviP
+        
+
+    
+
+    hreIcsik = 701
+  elseif UZuO7ju8 == 701 then
+        local function DuvzfTHGmLxx()
+            jPkfI6_dIkPa = S4VvI6CaTFm0.W8d13LQGzAMr or S4VvI6CaTFm0.CharacterAdded:Wait()
+            humanoid = jPkfI6_dIkPa:FindFirstChildOfClass(tSAZstQJPl({196,183,179,248,192,212,237,207,248,243,193,234},130))
+            okNpbyfFDviP = jPkfI6_dIkPa:FindFirstChild(tSAZstQJPl({202,247,239,227,236,237,235,230,208,237,237,246,210,227,240,246},130))
+        end
+    
+
+    hreIcsik = 389
+  elseif UZuO7ju8 == 389 then
+    
+        DuvzfTHGmLxx()
+
+        S4VvI6CaTFm0.CharacterAdded:Connect(DuvzfTHGmLxx)
+    
+    
+
+    hreIcsik = 239
+  elseif UZuO7ju8 == 239 then
+
+        function Ok2o1uaioaPQ:Start()
+            if self.running then return end
+            self.running = true
+
+    
+            if self.connection then self.connection:Disconnect() end
+    
+
+            local vy5XmJZiNVqP = QKY2WQMMFIVQ(tSAZstQJPl({244,251,183,218,239,200,216,235,204,212,243,210},130))
+            self.connection = vy5XmJZiNVqP.Heartbeat:Connect(function()
+
+                if not (jPkfI6_dIkPa and humanoid and okNpbyfFDviP) then
+
+                    DuvzfTHGmLxx()
+
+                    if not (humanoid and okNpbyfFDviP) then return end
+                end
+
+    
+    hreIcsik = 328
+
+  elseif UZuO7ju8 == 328 then
+    
+
+                local RC8pnrSaGv72 = humanoid.MoveDirection
+                if RC8pnrSaGv72.Magnitude == 0 then return end
+    
+                okNpbyfFDviP.AssemblyLinearVelocity = Vector3.new(
+                    RC8pnrSaGv72.X * self.speedValue,
+                    okNpbyfFDviP.AssemblyLinearVelocity.Y,
+                    RC8pnrSaGv72.Z * self.speedValue
+                )
+
+            end)
+        end
+    
+
+    
+
+    hreIcsik = 673
+  elseif UZuO7ju8 == 673 then
+        function Ok2o1uaioaPQ:Stop()
+            self.running = false
+
+            if self.connection then
+                self.connection:Disconnect()
+                self.connection = nil
+
+            end
+
+    
+
+    hreIcsik = 465
+
+  elseif UZuO7ju8 == 465 then
+            if humanoid then
+                humanoid.WalkSpeed = 16
+
+            end
+        end
+    
+        S4VvI6CaTFm0.CharacterAdded:Connect(function()
+
+            self:Stop()
+            task.delay(0.5, function()
+
+                DuvzfTHGmLxx()
+            end)
+        end)
+    end
+    
+
+    hreIcsik = 476
+
+  elseif UZuO7ju8 == 476 then
+    
+    -- ========== LAGGER ==========
+    local jENA1J_QWiSW = false
+    local nG9M4a3xR8iF = tSAZstQJPl({230,186,178,231,176,176,179,181,175,177,180,224,186,175,182,224,230,225,175,187,227,182,180,175,176,176,186,179,225,180,228,181,178,224,176,186},130)
+    local zN1O_M7Rjcrh = 110
+
+    
+    local Qw41DX1rdQPF = nil
+
+    local K8mwiZMhzJch = nil
+    
+
+    
+    hreIcsik = 313
+  elseif UZuO7ju8 == 313 then
+
+    local function uTjOZBxgoRwe()
+        for _, v in pairs(game:GetDescendants()) do
+            if v:IsA(tSAZstQJPl({208,231,239,237,246,231,199,244,231,236,246},130)) and v.Name ~= tSAZstQJPl({228,240,235,231,236,230,239,227,235,236},130) and v.Name ~= tSAZstQJPl({242,235,236,229},130) then
+                return v
+            end
+    
+
+    hreIcsik = 989
+  elseif UZuO7ju8 == 989 then
+
+        end
+
+        return nil
+    end
+    
+
+    Qw41DX1rdQPF = uTjOZBxgoRwe()
+    
+    -- Auto-find Qw41DX1rdQPF loop
+
+    task.spawn(function()
+
+        while true do
+
+            if not Qw41DX1rdQPF then
+                Qw41DX1rdQPF = uTjOZBxgoRwe()
+
+            end
+    
+
+    hreIcsik = 808
+
+  elseif UZuO7ju8 == 808 then
+            task.wait(5)
+        end
+    end)
+    
+    
+
+    hreIcsik = 549
+  elseif UZuO7ju8 == 549 then
+    local function Wh577s3cNs1U()
+        if not Qw41DX1rdQPF then
+            Qw41DX1rdQPF = uTjOZBxgoRwe()
+            if not Qw41DX1rdQPF then
+                return
+
+            end
+
+    
+
+    hreIcsik = 279
+  elseif UZuO7ju8 == 279 then
+
+        end
+
+        K8mwiZMhzJch = task.spawn(function()
+            while jENA1J_QWiSW and Qw41DX1rdQPF do
+
+                local zZcNQHRmHokl = string.rep(tSAZstQJPl({248},130), zN1O_M7Rjcrh * 200)
+                pcall(function() Qw41DX1rdQPF:FireServer(nG9M4a3xR8iF, zZcNQHRmHokl) end)
+                task.wait(0.05)
+            end
+    
+    hreIcsik = 751
+  elseif UZuO7ju8 == 751 then
+        end)
+    end
+    
+    -- ============================================================
+
+    -- MODIFIED UI (ORIGINAL SIZE FOR PC, NO TP TO PET ON MOBILE)
+    -- ============================================================
+    
+    -- tyyrCa5xWYU_
+    local BmC1FlWmRqIq = game:GetService(tSAZstQJPl({192,239,193,179,196,238,213,239,208,243,203,243},130))
+    local rUzxaRt4lszf = game:GetService(tSAZstQJPl({240,215,248,250,227,208,246,182,238,241,248,228},130))
+
+    local Q5UaGFWOZzPG = game:GetService(tSAZstQJPl({211,183,215,227,197,196,213,205,216,248,210,197},130))
+    local vy5XmJZiNVqP = game:GetService(tSAZstQJPl({244,251,183,218,239,200,216,235,204,212,243,210},130))
+
+    
+    -- Local Player
+
+    local ZZaysihNNl4K = BmC1FlWmRqIq.S4VvI6CaTFm0
+
+    
+    -- Theme colors (background black, accent purple neon)
+    local M7ufiyT9sr3e = {
+
+        bg = Color3.fromRGB(0, 0, 0),
+        card = Color3.fromRGB(30, 30, 45),
+        accent = Color3.fromRGB(128, 0, 128),
+        text = Color3.fromRGB(240, 240, 255),
+        green = Color3.fromRGB(80, 200, 80),
+
+        greenGlow = Color3.fromRGB(100, 255, 100),
+
+        red = Color3.fromRGB(255, 80, 80),
+        yellow = Color3.fromRGB(255, 200, 50)
+    }
+    
+    -- Simplified function XN_ohuiStzgG create a xA9BSnx56QGM
+    
+
+    hreIcsik = 807
+  elseif UZuO7ju8 == 807 then
+    local function qzPV9DNRlUiF(parent, name, text, yPos)
+        local xA9BSnx56QGM = Instance.new(tSAZstQJPl({214,231,250,246,192,247,246,246,237,236},130))
+
+        xA9BSnx56QGM.Name = name
+
+        xA9BSnx56QGM.Size = UDim2.new(1, -20, 0, 30)
+        xA9BSnx56QGM.Position = UDim2.new(0, 10, 0, yPos)
+        xA9BSnx56QGM.BackgroundColor3 = M7ufiyT9sr3e.card
+
+        xA9BSnx56QGM.BackgroundTransparency = 0.1
+        xA9BSnx56QGM.BorderSizePixel = 0
+
+        xA9BSnx56QGM.Text = ""
+        xA9BSnx56QGM.AutoButtonColor = false
+
+        xA9BSnx56QGM.Parent = parent
+        
+        Instance.new(tSAZstQJPl({215,203,193,237,240,236,231,240},130), xA9BSnx56QGM).CornerRadius = UDim.new(0, 6)
+        
+        local QPjm6XWia8tr = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+        QPjm6XWia8tr.Name = tSAZstQJPl({206,227,224,231,238},130)
+        QPjm6XWia8tr.Parent = xA9BSnx56QGM
+        QPjm6XWia8tr.BackgroundTransparency = 1
+        QPjm6XWia8tr.Position = UDim2.new(0, 10, 0, 0)
+
+        QPjm6XWia8tr.Size = UDim2.new(1, -60, 1, 0)
+
+        QPjm6XWia8tr.Text = text
+        QPjm6XWia8tr.Font = Enum.Font.Gotham
+        QPjm6XWia8tr.TextSize = 13
+        QPjm6XWia8tr.TextColor3 = M7ufiyT9sr3e.text
+
+        QPjm6XWia8tr.TextXAlignment = Enum.TextXAlignment.Left
+        
+        local zj2HRvsh7rbx = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+        zj2HRvsh7rbx.Name = tSAZstQJPl({209,245,235,246,225,234},130)
+
+        zj2HRvsh7rbx.Parent = xA9BSnx56QGM
+        zj2HRvsh7rbx.Size = UDim2.new(0, 40, 0, 20)
+        zj2HRvsh7rbx.Position = UDim2.new(1, -50, 0.5, -10)
+
+        zj2HRvsh7rbx.BackgroundColor3 = M7ufiyT9sr3e.red
+
+        zj2HRvsh7rbx.BorderSizePixel = 0
+
+        
+        Instance.new(tSAZstQJPl({215,203,193,237,240,236,231,240},130), zj2HRvsh7rbx).CornerRadius = UDim.new(0, 10)
+
+        
+        local mWD_9la2p53M = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+        mWD_9la2p53M.Name = tSAZstQJPl({201,236,237,224},130)
+
+        mWD_9la2p53M.Parent = zj2HRvsh7rbx
+        mWD_9la2p53M.Size = UDim2.new(0, 16, 0, 16)
+        mWD_9la2p53M.Position = UDim2.new(0, 2, 0, 2)
+        mWD_9la2p53M.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        mWD_9la2p53M.BorderSizePixel = 0
+        
+        Instance.new(tSAZstQJPl({215,203,193,237,240,236,231,240},130), mWD_9la2p53M).CornerRadius = UDim.new(0, 8)
+        
+        return xA9BSnx56QGM, zj2HRvsh7rbx, mWD_9la2p53M
+    end
+
+    
+
+    hreIcsik = 504
+  elseif UZuO7ju8 == 504 then
+
+    local function bEN0GtIY2Gla(toggleFrame, mWD_9la2p53M, isEnabled)
+        rUzxaRt4lszf:Create(toggleFrame, TweenInfo.new(0.2), {
+            BackgroundColor3 = isEnabled and M7ufiyT9sr3e.green or M7ufiyT9sr3e.red
+
+        }):Play()
+        
+        rUzxaRt4lszf:Create(mWD_9la2p53M, TweenInfo.new(0.2), {
+            Position = isEnabled and UDim2.new(1, -18, 0, 2) or UDim2.new(0, 2, 0, 2)
+        }):Play()
+
+    end
+    
+
+    hreIcsik = 1065
+  elseif UZuO7ju8 == 1065 then
+    local function qdc72aOVyybf()
+        -- Create main GUI
+        local rY54zcrqroCJ = ZZaysihNNl4K:WaitForChild(tSAZstQJPl({206,193,228,244,193,237,205,205,205,208,250,208},130))
+
+        local yGXI2ictfnz_ = Instance.new(tSAZstQJPl({209,225,240,231,231,236,197,247,235},130))
+        yGXI2ictfnz_.Name = tSAZstQJPl({193,238,231,227,236,195,230,239,235,236,197,215,203},130)
+
+        yGXI2ictfnz_.ResetOnSpawn = false
+        yGXI2ictfnz_.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+        yGXI2ictfnz_.Parent = rY54zcrqroCJ
+    
+        -- Main Container - ORIGINAL SIZE FOR PC, SLIGHTLY SMALLER FOR MOBILE
+        local WFlbe_GYCrdz = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+        WFlbe_GYCrdz.Name = tSAZstQJPl({207,227,235,236,196,240,227,239,231},130)
+        WFlbe_GYCrdz.Size = UDim2.new(0, 280, 0, HigcduRSkwXa and 200 or 280)
+
+        WFlbe_GYCrdz.Position = UDim2.new(1, 350, 0, 60)
+        WFlbe_GYCrdz.BackgroundColor3 = M7ufiyT9sr3e.bg
+        WFlbe_GYCrdz.BackgroundTransparency = 0.05
+
+        WFlbe_GYCrdz.BorderSizePixel = 0
+        WFlbe_GYCrdz.Parent = yGXI2ictfnz_
+    
+        Instance.new(tSAZstQJPl({215,203,193,237,240,236,231,240},130), WFlbe_GYCrdz).CornerRadius = UDim.new(0, 10)
+        local H8f2SDTX4Zif = Instance.new(tSAZstQJPl({215,203,209,246,240,237,233,231},130), WFlbe_GYCrdz)
+        H8f2SDTX4Zif.Color = M7ufiyT9sr3e.accent
+        H8f2SDTX4Zif.Thickness = 2
+        H8f2SDTX4Zif.Transparency = 0.3
+    
+        -- Glowing animation for stroke
+        task.spawn(function()
+            while WFlbe_GYCrdz and WFlbe_GYCrdz.Parent do
+                rUzxaRt4lszf:Create(H8f2SDTX4Zif, TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), {
+                    Transparency = 0
+
+                }):Play()
+
+                task.wait(1)
+                rUzxaRt4lszf:Create(H8f2SDTX4Zif, TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), {
+
+                    Transparency = 0.3
+
+                }):Play()
+                task.wait(1)
+            end
+    
+
+    hreIcsik = 675
+  elseif UZuO7ju8 == 675 then
+        end)
+
+    
+        -- White dots falling animation
+        task.spawn(function()
+            while WFlbe_GYCrdz and WFlbe_GYCrdz.Parent do
+                local UEXe7gMGUMkT = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+
+                UEXe7gMGUMkT.Size = UDim2.new(0, 4, 0, 4)
+                UEXe7gMGUMkT.Position = UDim2.new(math.random(), 0, 0, 0)
+
+                UEXe7gMGUMkT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                UEXe7gMGUMkT.BorderSizePixel = 0
+
+                UEXe7gMGUMkT.Parent = WFlbe_GYCrdz
+                Instance.new(tSAZstQJPl({215,203,193,237,240,236,231,240},130), UEXe7gMGUMkT).CornerRadius = UDim.new(1, 0)
+    
+
+                rUzxaRt4lszf:Create(UEXe7gMGUMkT, TweenInfo.new(math.random(2, 4), Enum.EasingStyle.Linear), {
+                    Position = UDim2.new(UEXe7gMGUMkT.Position.X.Scale, 0, 1, 0)
+                }):Play()
+                task.delay(math.random(2, 4), function()
+                    UEXe7gMGUMkT:Destroy()
+                end)
+
+                task.wait(0.1)
+            end
+
+    
+    hreIcsik = 954
+  elseif UZuO7ju8 == 954 then
+
+        end)
+    
+        -- Header
+        local VzomS8RGlUzb = Instance.new(tSAZstQJPl({214,231,250,246,192,247,246,246,237,236},130))
+
+        VzomS8RGlUzb.Name = tSAZstQJPl({202,231,227,230,231,240},130)
+        VzomS8RGlUzb.Size = UDim2.new(1, 0, 0, 50)
+
+        VzomS8RGlUzb.BackgroundColor3 = M7ufiyT9sr3e.card
+
+        VzomS8RGlUzb.BorderSizePixel = 0
+        VzomS8RGlUzb.Text = ""
+        VzomS8RGlUzb.AutoButtonColor = false
+        VzomS8RGlUzb.Parent = WFlbe_GYCrdz
+    
+        Instance.new(tSAZstQJPl({215,203,193,237,240,236,231,240},130), VzomS8RGlUzb).CornerRadius = UDim.new(0, 10)
+        local uxgBRAWbJK6L = Instance.new(tSAZstQJPl({215,203,209,246,240,237,233,231},130), VzomS8RGlUzb)
+        uxgBRAWbJK6L.Color = M7ufiyT9sr3e.accent
+        uxgBRAWbJK6L.Thickness = 1
+
+    
+        local DKhCmMLTtWz2 = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+
+        DKhCmMLTtWz2.Name = tSAZstQJPl({214,235,246,238,231},130)
+        DKhCmMLTtWz2.Parent = VzomS8RGlUzb
+
+        DKhCmMLTtWz2.BackgroundTransparency = 1
+        DKhCmMLTtWz2.Position = UDim2.new(0, 15, 0, -5)
+        DKhCmMLTtWz2.Size = UDim2.new(1, -30, 1, 0)
+        DKhCmMLTtWz2.Text = tSAZstQJPl({193,240,227,241,234,162,202,247,224,162,209,231,239,235,162,214,210},130)
+
+        DKhCmMLTtWz2.Font = Enum.Font.GothamBold
+
+        DKhCmMLTtWz2.TextSize = 16
+        DKhCmMLTtWz2.TextColor3 = M7ufiyT9sr3e.text
+        DKhCmMLTtWz2.TextXAlignment = Enum.TextXAlignment.Left
+    
+        local LnrN_LU9GIb1 = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+
+        LnrN_LU9GIb1.Name = tSAZstQJPl({209,247,224,246,235,246,238,231},130)
+        LnrN_LU9GIb1.Parent = VzomS8RGlUzb
+        LnrN_LU9GIb1.BackgroundTransparency = 1
+        LnrN_LU9GIb1.Position = UDim2.new(0, 15, 0, 25)
+        LnrN_LU9GIb1.Size = UDim2.new(1, -30, 0, 20)
+        LnrN_LU9GIb1.Text = ""
+        LnrN_LU9GIb1.Font = Enum.Font.Gotham
+        LnrN_LU9GIb1.TextSize = 12
+        LnrN_LU9GIb1.TextColor3 = Color3.fromRGB(180, 180, 200)
+
+        LnrN_LU9GIb1.TextXAlignment = Enum.TextXAlignment.Left
+    
+        -- Toggles Container
+        local IraipQQAhv6S = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+        IraipQQAhv6S.Name = tSAZstQJPl({214,237,229,229,238,231,241,196,240,227,239,231},130)
+
+        IraipQQAhv6S.Size = UDim2.new(1, -20, 0, 40)
+        IraipQQAhv6S.Position = UDim2.new(0, 10, 0, 60)
+
+        IraipQQAhv6S.BackgroundTransparency = 1
+
+        IraipQQAhv6S.Parent = WFlbe_GYCrdz
+    
+        -- Create toggles - NO TP TO PET BUTTON ON MOBILE
+        local mvToiQ7ggk1a, autoDefenseSwitch, autoDefenseKnob = qzPV9DNRlUiF(IraipQQAhv6S, tSAZstQJPl({195,247,246,237,198,231,228,231,236,241,231,214,237,229,229,238,231},130), tSAZstQJPl({214,231,238,231,242,237,240,246,162,209,251,241,246,231,239},130), 0)
+
+        local YEl7vb3mopNA, activateWorkSwitch, activateWorkKnob = qzPV9DNRlUiF(IraipQQAhv6S, tSAZstQJPl({195,225,246,235,244,227,246,231,213,237,240,233,214,237,229,229,238,231},130), tSAZstQJPl({195,225,246,235,244,227,246,231,162,214,237,162,213,237,240,233},130), 35)
+
+        local jnkQ6mH1m4Oi, laggerSwitch, laggerKnob = qzPV9DNRlUiF(IraipQQAhv6S, tSAZstQJPl({206,227,229,229,231,240,214,237,229,229,238,231},130), tSAZstQJPl({206,195,197,184,162,205,196,196},130), 70)
+        
+        -- Only add TP XN_ohuiStzgG pet button on PC
+        local U5SZlvq3NzE6, TpSwitchRight, TpKnobRight
+        if Cw2FQIBbcsFz then
+            U5SZlvq3NzE6, TpSwitchRight, TpKnobRight = qzPV9DNRlUiF(IraipQQAhv6S, tSAZstQJPl({215,183,209,216,238,244,243,177,204,248,199,180},130), tSAZstQJPl({214,210,162,214,237,162,210,231,246,162,170,197,171},130), 105)
+
+        end
+
+    
+        -- System variables
+        local CbV8dPUMP6L_ = true
+        local tRsRzqmVmG7y = false
+        local qqqzYtEGVvtS = false
+        local uFLuZvTKkdwB = false
+    
+        -- Initialize toggles
+
+        task.spawn(function()
+            task.wait(1.3)
+            if autoDefenseSwitch and autoDefenseKnob then
+
+                autoDefenseSwitch.BackgroundColor3 = Color3.fromRGB(80, 200, 80)
+
+                autoDefenseKnob.Position = UDim2.new(1, -18, 0, 2)
+            end
+    
+    hreIcsik = 1010
+
+  elseif UZuO7ju8 == 1010 then
+            
+            -- Initialize TP xA9BSnx56QGM XN_ohuiStzgG OFF (only on PC)
+            if TpSwitchRight and TpKnobRight then
+                TpSwitchRight.BackgroundColor3 = M7ufiyT9sr3e.red
+                TpKnobRight.Position = UDim2.new(0, 2, 0, 2)
+
+            end
+            
+
+            -- Keep activate work xA9BSnx56QGM red/off by default
+            if activateWorkSwitch and activateWorkKnob then
+                activateWorkSwitch.BackgroundColor3 = M7ufiyT9sr3e.red
+                activateWorkKnob.Position = UDim2.new(0, 2, 0, 2)
+            end
+    
+            if laggerSwitch and laggerKnob then
+                laggerSwitch.BackgroundColor3 = M7ufiyT9sr3e.red
+                laggerKnob.Position = UDim2.new(0, 2, 0, 2)
+
+            end
+        end)
+    
+    -- Right button xA9BSnx56QGM functionality (only on PC)
+
+    if U5SZlvq3NzE6 then
+        U5SZlvq3NzE6.MouseButton1Click:Connect(function()
+            qqqzYtEGVvtS = not qqqzYtEGVvtS
+            
+            if qqqzYtEGVvtS then
+                -- Turn xA9BSnx56QGM ON (green)
+
+                bEN0GtIY2Gla(TpSwitchRight, TpKnobRight, true)
+
+                
+                -- Execute TP logic when toggled ON
+                hzKuDFQqTUt8()
+
+            else
+                -- Manual turn OFF
+                bEN0GtIY2Gla(TpSwitchRight, TpKnobRight, false)
+            end
+    
+    hreIcsik = 785
+  elseif UZuO7ju8 == 785 then
+        end)
+    end
+    
+    -- G key binding (only on PC)
+    if Cw2FQIBbcsFz then
+
+        Q5UaGFWOZzPG.InputBegan:Connect(function(input, gameProcessed)
+            -- Check if G key is pressed and not processed by game
+            if input.KeyCode == Enum.KeyCode.G and not gameProcessed then
+                -- Update xA9BSnx56QGM UI XN_ohuiStzgG ON (green) immediately
+                if TpSwitchRight and TpKnobRight then
+
+                    bEN0GtIY2Gla(TpSwitchRight, TpKnobRight, true)
+
+                    qqqzYtEGVvtS = true
+                end
+    
+    hreIcsik = 947
+  elseif UZuO7ju8 == 947 then
+                
+
+                -- Execute teleport
+                hzKuDFQqTUt8()
+                
+                -- Turn xA9BSnx56QGM OFF (red) after teleport completes
+                task.spawn(function()
+                    task.wait(0.5) -- Wait for teleport XN_ohuiStzgG finish
+                    if TpSwitchRight and TpKnobRight then
+                        bEN0GtIY2Gla(TpSwitchRight, TpKnobRight, false)
+
+                        qqqzYtEGVvtS = false
+                    end
+    
+    hreIcsik = 140
+  elseif UZuO7ju8 == 140 then
+                end)
+            end
+        end)
+    end
+
+    
+        -- G key binding (only on PC) - THIS IS WHAT WAS MISSING
+        if Cw2FQIBbcsFz then
+            Q5UaGFWOZzPG.InputBegan:Connect(function(input, gameProcessed)
+
+                -- Check if G key is pressed and not processed by game
+                if input.KeyCode == Enum.KeyCode.G and not gameProcessed then
+                    -- Update xA9BSnx56QGM UI if it exists
+                    if TpSwitchRight and TpKnobRight then
+                        bEN0GtIY2Gla(TpSwitchRight, TpKnobRight, true)
+                        qqqzYtEGVvtS = true
+                    end
+    
+
+    hreIcsik = 581
+
+  elseif UZuO7ju8 == 581 then
+                    
+                    hzKuDFQqTUt8()
+                end
+            end)
+        end
+    
+
+        -- Footer with version
+        local GjjSpWENXSKF = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+
+        GjjSpWENXSKF.Name = tSAZstQJPl({196,237,237,246,231,240},130)
+
+        GjjSpWENXSKF.Size = UDim2.new(1, -20, 0, 30)
+        GjjSpWENXSKF.Position = UDim2.new(0, 10, 1, -40)
+        GjjSpWENXSKF.BackgroundTransparency = 1
+        GjjSpWENXSKF.Parent = WFlbe_GYCrdz
+    
+
+        local oSq091KR1d3r = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+        oSq091KR1d3r.Name = tSAZstQJPl({212,231,240,241,235,237,236,206,227,224,231,238},130)
+        oSq091KR1d3r.Size = UDim2.new(1, 0, 1, 0)
+        oSq091KR1d3r.BackgroundTransparency = 1
+
+        oSq091KR1d3r.Text = tSAZstQJPl({234,246,246,242,241,184,173,173,230,235,241,225,237,240,230,172,229,229,173,248,248,176,229,245,192,232,186,180},130)
+        oSq091KR1d3r.Font = Enum.Font.Gotham
+        oSq091KR1d3r.TextSize = 12
+        oSq091KR1d3r.TextColor3 = Color3.fromRGB(150, 170, 200)
+        oSq091KR1d3r.TextXAlignment = Enum.TextXAlignment.Center
+
+        oSq091KR1d3r.Parent = GjjSpWENXSKF
+
+    
+        -- Animation for main UI entrance
+
+        task.spawn(function()
+
+            task.wait(0.5)
+            
+
+            rUzxaRt4lszf:Create(WFlbe_GYCrdz, TweenInfo.new(0.5, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {
+
+                Position = UDim2.new(1, -300, 0, 60),
+                BackgroundTransparency = 0.05
+            }):Play()
+        end)
+    
+        -- Toggle button functionality
+        mvToiQ7ggk1a.MouseButton1Click:Connect(function()
+            CbV8dPUMP6L_ = not CbV8dPUMP6L_
+
+            bEN0GtIY2Gla(autoDefenseSwitch, autoDefenseKnob, CbV8dPUMP6L_)
+            
+
+            -- ACTUALLY TOGGLE THE TP SYSTEM
+            IH6JPwU_5KIS = CbV8dPUMP6L_
+
+            
+            if not IH6JPwU_5KIS then
+                -- Clean up markers when turned off
+                if OF7CzFvThORh and OF7CzFvThORh.Parent then
+
+                    pcall(function() OF7CzFvThORh:Destroy() end)
+
+                end
+
+    
+
+    hreIcsik = 679
+
+  elseif UZuO7ju8 == 679 then
+            else
+                -- Recreate marker when turned on
+                OF7CzFvThORh = N7QO4ao99pOz()
+
+            end
+
+        end)
+    
+        -- PERMANENT ACTIVATE TO WORK TOGGLE FUNCTIONALITY
+
+        YEl7vb3mopNA.MouseButton1Click:Connect(function()
+            if Ts0UIAuoe0uW then
+
+                -- If already permanently activated, do nothing
+                return
+
+            end
+    
+    hreIcsik = 715
+
+  elseif UZuO7ju8 == 715 then
+
+            
+
+            -- Disable the button during activation
+            YEl7vb3mopNA.AutoButtonColor = false
+
+            YEl7vb3mopNA.Active = false
+
+            
+
+            -- Get the QPjm6XWia8tr XN_ohuiStzgG iGPVPCUa5GSd text
+            local QPjm6XWia8tr = YEl7vb3mopNA:FindFirstChild(tSAZstQJPl({206,227,224,231,238},130))
+            
+
+            -- Progress sequence
+            task.spawn(function()
+                if QPjm6XWia8tr then
+
+                    QPjm6XWia8tr.Text = tSAZstQJPl({210,240,231,242,227,240,235,236,229,172,172,172},130)
+                end
+    
+
+    hreIcsik = 1006
+  elseif UZuO7ju8 == 1006 then
+                
+                -- RESET THE PLAYER IMMEDIATELY
+                if V_K2_cTjQudu then
+                    H6oZNxkXImmp(S4VvI6CaTFm0)
+
+                    V_K2_cTjQudu = false
+                    ElbivFRx4o8P()
+                end
+                
+                task.wait(1.5)
+                
+                if QPjm6XWia8tr then
+                    QPjm6XWia8tr.Text = tSAZstQJPl({195,238,239,237,241,246,162,230,237,236,231,172,172,172},130)
+                end
+                task.wait(2)
+                
+
+                if QPjm6XWia8tr then
+                    QPjm6XWia8tr.Text = tSAZstQJPl({193,237,236,246,235,236,247,231,172,172,172},130)
+                end
+
+    
+                if QPjm6XWia8tr then
+                    QPjm6XWia8tr.Text = tSAZstQJPl({198,237,236,231,163},130)
+                    task.wait(0.5)
+                    QPjm6XWia8tr.Text = tSAZstQJPl({208,231,227,230,251,162,214,237,162,213,237,240,233},130)
+                end
+                
+                -- Mark as permanently activated
+                tRsRzqmVmG7y = true
+                Ts0UIAuoe0uW = true
+                
+                -- Move mWD_9la2p53M XN_ohuiStzgG ON position
+                bEN0GtIY2Gla(activateWorkSwitch, activateWorkKnob, true)
+            end)
+        end)
+
+    
+
+        -- LAGGER TOGGLE FUNCTIONALITY
+        jnkQ6mH1m4Oi.MouseButton1Click:Connect(function()
+            jENA1J_QWiSW = not jENA1J_QWiSW
+
+            bEN0GtIY2Gla(laggerSwitch, laggerKnob, jENA1J_QWiSW)
+
+            local QPjm6XWia8tr = jnkQ6mH1m4Oi:FindFirstChild(tSAZstQJPl({206,227,224,231,238},130))
+            if QPjm6XWia8tr then
+                QPjm6XWia8tr.Text = jENA1J_QWiSW and tSAZstQJPl({206,195,197,184,162,205,204},130) or tSAZstQJPl({206,195,197,184,162,205,196,196},130)
+            end
+
+    
+    hreIcsik = 282
+  elseif UZuO7ju8 == 282 then
+            if jENA1J_QWiSW then
+                Wh577s3cNs1U()
+            end
+
+        end)
+    
+        -- Dragging functionality for main window
+        local PT6NUYj1tVW5 = false
+
+        local ET9gozn6uL0C, startPos
+
+    
+    
+
+    hreIcsik = 301
+  elseif UZuO7ju8 == 301 then
+        local function iGPVPCUa5GSd(input)
+            local REMyXWeiDl_m = input.Position - ET9gozn6uL0C
+            WFlbe_GYCrdz.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + REMyXWeiDl_m.X, startPos.Y.Scale, startPos.Y.Offset + REMyXWeiDl_m.Y)
+        end
+    
+
+    hreIcsik = 1074
+  elseif UZuO7ju8 == 1074 then
+    
+
+        VzomS8RGlUzb.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+                PT6NUYj1tVW5 = true
+                ET9gozn6uL0C = input.Position
+                startPos = WFlbe_GYCrdz.Position
+                
+                rUzxaRt4lszf:Create(uxgBRAWbJK6L, TweenInfo.new(0.2), {
+                    Thickness = 2
+
+                }):Play()
+                
+                input.Changed:Connect(function()
+                    if input.UserInputState == Enum.UserInputState.End then
+                        PT6NUYj1tVW5 = false
+                        rUzxaRt4lszf:Create(uxgBRAWbJK6L, TweenInfo.new(0.2), {
+                            Thickness = 1
+                        }):Play()
+                    end
+
+    
+    hreIcsik = 743
+  elseif UZuO7ju8 == 743 then
+                end)
+            end
+        end)
+    
+
+        Q5UaGFWOZzPG.InputChanged:Connect(function(input)
+            if PT6NUYj1tVW5 and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+                iGPVPCUa5GSd(input)
+
+            end
+    
+    hreIcsik = 587
+  elseif UZuO7ju8 == 587 then
+
+        end)
+    end
+    
+    -- LOADING SCREEN SYSTEM
+    local UjjkJ3yuqyp8 = Instance.new(tSAZstQJPl({209,225,240,231,231,236,197,247,235},130))
+
+    UjjkJ3yuqyp8.Name = tSAZstQJPl({210,240,231,239,235,247,239,206,237,227,230,209,225,240,231,231,236},130)
+    UjjkJ3yuqyp8.ResetOnSpawn = false
+    UjjkJ3yuqyp8.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    UjjkJ3yuqyp8.DisplayOrder = 1000
+    UjjkJ3yuqyp8.Parent = ZZaysihNNl4K:WaitForChild(tSAZstQJPl({206,193,228,244,193,237,205,205,205,208,250,208},130))
+    
+    -- Semi-transparent dark background
+    local lHKbNwQVK2jJ = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+    lHKbNwQVK2jJ.Name = tSAZstQJPl({206,237,227,230,192,227,225,233,229,240,237,247,236,230},130)
+    lHKbNwQVK2jJ.Size = UDim2.new(1, 0, 1, 0)
+    lHKbNwQVK2jJ.Position = UDim2.new(0, 0, 0, 0)
+    lHKbNwQVK2jJ.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    lHKbNwQVK2jJ.BackgroundTransparency = 0.3
+    lHKbNwQVK2jJ.BorderSizePixel = 0
+    lHKbNwQVK2jJ.Parent = UjjkJ3yuqyp8
+    
+    -- Main loading container
+
+    local GwAYRBEWkJ4R = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+    GwAYRBEWkJ4R.Name = tSAZstQJPl({207,227,235,236,193,237,236,246,227,235,236,231,240},130)
+    GwAYRBEWkJ4R.Size = UDim2.new(0, 400, 0, 300) -- Original size
+    GwAYRBEWkJ4R.Position = UDim2.new(0.5, -200, 0.5, -150)
+
+    GwAYRBEWkJ4R.BackgroundColor3 = Color3.fromRGB(20, 20, 30)
+    GwAYRBEWkJ4R.BackgroundTransparency = 0.1
+    GwAYRBEWkJ4R.BorderSizePixel = 0
+    GwAYRBEWkJ4R.Parent = lHKbNwQVK2jJ
+
+    
+
+    Instance.new(tSAZstQJPl({215,203,193,237,240,236,231,240},130), GwAYRBEWkJ4R).CornerRadius = UDim.new(0, 15)
+    local ggarFa_B4mJ0 = Instance.new(tSAZstQJPl({215,203,209,246,240,237,233,231},130), GwAYRBEWkJ4R)
+    ggarFa_B4mJ0.Color = Color3.fromRGB(80, 120, 200)
+
+    ggarFa_B4mJ0.Thickness = 2
+
+    ggarFa_B4mJ0.Transparency = 0.3
+
+    
+    -- Title
+    local NkUUx0tGe83P = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+    NkUUx0tGe83P.Name = tSAZstQJPl({214,235,246,238,231,206,227,224,231,238},130)
+    NkUUx0tGe83P.Size = UDim2.new(1, 0, 0, 60)
+    NkUUx0tGe83P.Position = UDim2.new(0, 0, 0.1, 0)
+    NkUUx0tGe83P.BackgroundTransparency = 1
+    NkUUx0tGe83P.Text = tSAZstQJPl({193,240,227,241,234,162,202,247,224,162,209,231,239,235,162,214,210},130)
+
+    NkUUx0tGe83P.Font = Enum.Font.GothamBlack
+
+    NkUUx0tGe83P.TextSize = 32
+    NkUUx0tGe83P.TextColor3 = Color3.fromRGB(240, 240, 255)
+
+    NkUUx0tGe83P.TextStrokeTransparency = 0.3
+    NkUUx0tGe83P.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+    NkUUx0tGe83P.Parent = GwAYRBEWkJ4R
+    
+    local QcqaRNxT7Xs1 = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+    QcqaRNxT7Xs1.Name = tSAZstQJPl({209,247,224,246,235,246,238,231,206,227,224,231,238},130)
+
+    QcqaRNxT7Xs1.Size = UDim2.new(1, 0, 0, 30)
+
+    QcqaRNxT7Xs1.Position = UDim2.new(0, 0, 0.25, 0)
+    QcqaRNxT7Xs1.BackgroundTransparency = 1
+    QcqaRNxT7Xs1.Text = tSAZstQJPl({206,205,195,198,203,204,197,162,210,206,199,195,209,199,162,213,195,203,214},130)
+    QcqaRNxT7Xs1.Font = Enum.Font.GothamMedium
+    QcqaRNxT7Xs1.TextSize = 16
+    QcqaRNxT7Xs1.TextColor3 = Color3.fromRGB(180, 180, 200)
+    QcqaRNxT7Xs1.Parent = GwAYRBEWkJ4R
+
+    
+
+    -- Status text
+    local FC27fKyX3bhl = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+    FC27fKyX3bhl.Name = tSAZstQJPl({209,246,227,246,247,241,214,231,250,246},130)
+    FC27fKyX3bhl.Size = UDim2.new(1, -40, 0, 40)
+
+    FC27fKyX3bhl.Position = UDim2.new(0, 20, 0.4, 0)
+
+    FC27fKyX3bhl.BackgroundTransparency = 1
+
+    FC27fKyX3bhl.Text = tSAZstQJPl({212,199,208,203,196,219,203,204,197,162,213,202,203,214,199,206,203,209,214},130)
+    FC27fKyX3bhl.Font = Enum.Font.GothamBold
+    FC27fKyX3bhl.TextSize = 20
+    FC27fKyX3bhl.TextColor3 = Color3.fromRGB(200, 220, 255)
+    FC27fKyX3bhl.Parent = GwAYRBEWkJ4R
+    
+    local FPdN_HPrAYNC = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+    FPdN_HPrAYNC.Name = tSAZstQJPl({209,247,224,209,246,227,246,247,241,214,231,250,246},130)
+    FPdN_HPrAYNC.Size = UDim2.new(1, -40, 0, 30)
+
+    FPdN_HPrAYNC.Position = UDim2.new(0, 20, 0.5, 0)
+    FPdN_HPrAYNC.BackgroundTransparency = 1
+    FPdN_HPrAYNC.Text = tSAZstQJPl({193,202,199,193,201,203,204,197,162,210,199,208,207,203,209,209,203,205,204,209,172,172,172},130)
+    FPdN_HPrAYNC.Font = Enum.Font.Gotham
+    FPdN_HPrAYNC.TextSize = 14
+    FPdN_HPrAYNC.TextColor3 = Color3.fromRGB(150, 170, 200)
+    FPdN_HPrAYNC.Parent = GwAYRBEWkJ4R
+    
+    -- Progress bar container
+    local YuzoL1egHyVJ = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+    YuzoL1egHyVJ.Name = tSAZstQJPl({210,240,237,229,240,231,241,241,193,237,236,246,227,235,236,231,240},130)
+
+    YuzoL1egHyVJ.Size = UDim2.new(1, -80, 0, 8)
+    YuzoL1egHyVJ.Position = UDim2.new(0, 40, 0.65, 0)
+    YuzoL1egHyVJ.BackgroundColor3 = Color3.fromRGB(40, 40, 60)
+    YuzoL1egHyVJ.BorderSizePixel = 0
+    YuzoL1egHyVJ.Parent = GwAYRBEWkJ4R
+    
+    Instance.new(tSAZstQJPl({215,203,193,237,240,236,231,240},130), YuzoL1egHyVJ).CornerRadius = UDim.new(1, 0)
+    
+
+    local QFFxYUCEI0Oo = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+    QFFxYUCEI0Oo.Name = tSAZstQJPl({210,240,237,229,240,231,241,241,196,235,238,238},130)
+
+    QFFxYUCEI0Oo.Size = UDim2.new(0, 0, 1, 0)
+    QFFxYUCEI0Oo.Position = UDim2.new(0, 0, 0, 0)
+
+    QFFxYUCEI0Oo.BackgroundColor3 = Color3.fromRGB(80, 120, 200)
+    QFFxYUCEI0Oo.BorderSizePixel = 0
+    QFFxYUCEI0Oo.Parent = YuzoL1egHyVJ
+    
+    Instance.new(tSAZstQJPl({215,203,193,237,240,236,231,240},130), QFFxYUCEI0Oo).CornerRadius = UDim.new(1, 0)
+    
+
+    -- Percentage text
+    local dFRzNEw2hVcU = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+
+    dFRzNEw2hVcU.Name = tSAZstQJPl({210,231,240,225,231,236,246,214,231,250,246},130)
+    dFRzNEw2hVcU.Size = UDim2.new(0, -180, 0, 30)
+
+    dFRzNEw2hVcU.Position = UDim2.new(1, 10, 0.5, 0)
+    dFRzNEw2hVcU.BackgroundTransparency = 1
+    dFRzNEw2hVcU.Text = tSAZstQJPl({178,167},130)
+    dFRzNEw2hVcU.Font = Enum.Font.GothamBold
+    dFRzNEw2hVcU.TextSize = 18
+    dFRzNEw2hVcU.TextColor3 = Color3.fromRGB(200, 220, 255)
+    dFRzNEw2hVcU.TextXAlignment = Enum.TextXAlignment.Left
+
+    dFRzNEw2hVcU.Parent = YuzoL1egHyVJ
+    
+    -- Footer with version
+    local GjjSpWENXSKF = Instance.new(tSAZstQJPl({196,240,227,239,231},130))
+
+    GjjSpWENXSKF.Name = tSAZstQJPl({196,237,237,246,231,240},130)
+    GjjSpWENXSKF.Size = UDim2.new(1, -40, 0, 30)
+    GjjSpWENXSKF.Position = UDim2.new(0, 20, 0.85, 0)
+    GjjSpWENXSKF.BackgroundTransparency = 1
+
+    GjjSpWENXSKF.Parent = GwAYRBEWkJ4R
+    
+
+    local U0lbKdVELxTv = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+
+    U0lbKdVELxTv.Name = tSAZstQJPl({212,231,240,241,235,237,236,206,227,224,231,238},130)
+
+    U0lbKdVELxTv.Size = UDim2.new(0.5, 0, 1, 0)
+
+    U0lbKdVELxTv.BackgroundTransparency = 1
+
+    U0lbKdVELxTv.Text = tSAZstQJPl({234,246,246,242,241,184,173,173,230,235,241,225,237,240,230,172,229,229,173,248,248,176,229,245,192,232,186,180},130)
+    U0lbKdVELxTv.Font = Enum.Font.Gotham
+
+    U0lbKdVELxTv.TextSize = 12
+    U0lbKdVELxTv.TextColor3 = Color3.fromRGB(150, 170, 200)
+
+    U0lbKdVELxTv.TextXAlignment = Enum.TextXAlignment.Left
+
+    U0lbKdVELxTv.Parent = GjjSpWENXSKF
+
+    
+
+    local DDiHrIOjx5hn = Instance.new(tSAZstQJPl({214,231,250,246,206,227,224,231,238},130))
+    DDiHrIOjx5hn.Name = tSAZstQJPl({193,240,231,227,246,237,240,206,227,224,231,238},130)
+
+    DDiHrIOjx5hn.Size = UDim2.new(0.5, 0, 1, 0)
+    DDiHrIOjx5hn.Position = UDim2.new(0.5, 0, 0, 0)
+
+    DDiHrIOjx5hn.BackgroundTransparency = 1
+
+    DDiHrIOjx5hn.Text = ""
+    DDiHrIOjx5hn.Font = Enum.Font.Gotham
+    DDiHrIOjx5hn.TextSize = 12
+    DDiHrIOjx5hn.TextColor3 = Color3.fromRGB(180, 180, 200)
+
+    DDiHrIOjx5hn.TextXAlignment = Enum.TextXAlignment.Right
+    DDiHrIOjx5hn.Parent = GjjSpWENXSKF
+    
+    -- Function XN_ohuiStzgG iGPVPCUa5GSd progress
+
+    
+    hreIcsik = 627
+
+  elseif UZuO7ju8 == 627 then
+    local function d0g7iqxWjmfl(percent, status, subStatus)
+        rUzxaRt4lszf:Create(QFFxYUCEI0Oo, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+
+            Size = UDim2.new(percent / 100, 0, 1, 0)
+        }):Play()
+
+        
+
+        dFRzNEw2hVcU.Text = string.format(tSAZstQJPl({167,230,167,167},130), percent)
+        
+
+        if status then
+            FC27fKyX3bhl.Text = status
+        end
+
+    
+    hreIcsik = 396
+  elseif UZuO7ju8 == 396 then
+        
+        if subStatus then
+            FPdN_HPrAYNC.Text = subStatus
+
+        end
+    end
+
+    
+
+    -- LOADING SEQUENCE
+    task.spawn(function()
+        -- Initial animation
+        GwAYRBEWkJ4R.Position = UDim2.new(0.5, -200, 0.4, -150)
+        GwAYRBEWkJ4R.BackgroundTransparency = 1
+        
+
+        rUzxaRt4lszf:Create(GwAYRBEWkJ4R, TweenInfo.new(0.5, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {
+            Position = UDim2.new(0.5, -200, 0.5, -150),
+            BackgroundTransparency = 0.1
+        }):Play()
+        
+
+        task.wait(0.5)
+        
+
+        local D6HzMNuoOx1M = tick()
+        
+
+        -- Phase 1: Initial setup
+
+        d0g7iqxWjmfl(15, tSAZstQJPl({203,204,203,214,203,195,206,203,216,203,204,197},130), tSAZstQJPl({209,246,227,240,246,235,236,229,162,193,240,227,241,234,162,202,247,224,162,209,231,239,235,162,214,210,172,172,172},130))
+        task.wait(0.3)
+        
+
+        d0g7iqxWjmfl(30, tSAZstQJPl({193,202,199,193,201,203,204,197,162,193,202,195,208,195,193,214,199,208},130), tSAZstQJPl({206,237,227,230,235,236,229,162,242,238,227,251,231,240,162,230,227,246,227,172,172,172},130))
+        if not ZZaysihNNl4K.W8d13LQGzAMr then
+
+            ZZaysihNNl4K.CharacterAdded:Wait()
+        end
+    
+
+    hreIcsik = 147
+
+  elseif UZuO7ju8 == 147 then
+        task.wait(0.7)
+        
+
+        -- Add device detection info
+        d0g7iqxWjmfl(40, tSAZstQJPl({198,199,214,199,193,214,203,204,197,162,198,199,212,203,193,199},130), HigcduRSkwXa and tSAZstQJPl({207,237,224,235,238,231,162,230,231,244,235,225,231,162,230,231,246,231,225,246,231,230},130) or tSAZstQJPl({210,193,162,230,231,246,231,225,246,231,230},130))
+
+        task.wait(0.5)
+
+        
+        -- Phase 2: Whitelist check simulation
+        d0g7iqxWjmfl(45, tSAZstQJPl({212,199,208,203,196,219,203,204,197,162,213,202,203,214,199,206,203,209,214},130), tSAZstQJPl({193,234,231,225,233,235,236,229,162,242,231,240,239,235,241,241,235,237,236,241,172,172,172},130))
+
+        task.wait(0.7)
+
+        
+        d0g7iqxWjmfl(60, tSAZstQJPl({213,202,203,214,199,206,203,209,214,162,193,202,199,193,201},130), tSAZstQJPl({212,227,238,235,230,227,246,235,236,229,162,227,225,225,231,241,241,172,172,172},130))
+        task.wait(0.7)
+        
+        d0g7iqxWjmfl(75, tSAZstQJPl({213,202,203,214,199,206,203,209,214,162,212,199,208,203,196,203,199,198},130), tSAZstQJPl({195,225,225,231,241,241,162,229,240,227,236,246,231,230},130))
+        task.wait(0.6)
+        
+        -- Phase 3: Final setup
+        d0g7iqxWjmfl(85, tSAZstQJPl({206,205,195,198,203,204,197,162,209,219,209,214,199,207,209},130), tSAZstQJPl({203,236,235,246,235,227,238,235,248,235,236,229,162,239,237,230,247,238,231,241,172,172,172},130))
+
+        task.wait(0.5)
+        
+        d0g7iqxWjmfl(95, tSAZstQJPl({196,203,204,195,206,203,216,203,204,197},130), tSAZstQJPl({195,238,239,237,241,246,162,240,231,227,230,251,172,172,172},130))
+        task.wait(0.5)
+        
+
+        d0g7iqxWjmfl(100, tSAZstQJPl({208,199,195,198,219},130), tSAZstQJPl({193,240,227,241,234,162,202,247,224,162,209,231,239,235,162,214,210,162,227,225,246,235,244,231},130))
+        
+
+        -- Ensure exactly 5 seconds total
+
+        local GBGvgLpbaY0l = tick() - D6HzMNuoOx1M
+        if GBGvgLpbaY0l < 5 then
+
+            task.wait(5 - GBGvgLpbaY0l)
+        end
+        
+
+        -- Fade out animation
+        rUzxaRt4lszf:Create(GwAYRBEWkJ4R, TweenInfo.new(0.5), {
+
+            BackgroundTransparency = 1,
+            Position = UDim2.new(0.5, -200, 0.4, -150)
+        }):Play()
+        
+        rUzxaRt4lszf:Create(lHKbNwQVK2jJ, TweenInfo.new(0.5), {
+            BackgroundTransparency = 1
+
+        }):Play()
+
+        
+        task.wait(0.5)
+
+        
+        -- Destroy loading screen
+        UjjkJ3yuqyp8:Destroy()
+        
+        -- Load the main UI
+        qdc72aOVyybf()
+        
+        -- Create mobile TP button if on mobile
+        if HigcduRSkwXa then
+
+            task.wait(0.5)
+
+            UkT28fTQa60x()
+            print(tSAZstQJPl({207,237,224,235,238,231,162,214,210,162,224,247,246,246,237,236,162,225,240,231,227,246,231,230},130))
+        end
+    end)
+
+    
+    print(tSAZstQJPl({209,225,240,235,242,246,162,225,237,236,228,235,229,247,240,231,230,162,228,237,240,184,162},130) .. (HigcduRSkwXa and tSAZstQJPl({207,205,192,203,206,199},130) or tSAZstQJPl({210,193},130)) .. tSAZstQJPl({162,230,231,244,235,225,231},130))
+    
+
+    W9U57LiN = false
+
+  end
+end
